@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -47,6 +48,12 @@ TagManager:
   - name: World
     uniqueID: 4102723631
     locked: 0
+  - name: Enemies
+    uniqueID: 3735371281
+    locked: 0
   - name: Player
     uniqueID: 2806086001
+    locked: 0
+  - name: Effects
+    uniqueID: 1637082055
     locked: 0

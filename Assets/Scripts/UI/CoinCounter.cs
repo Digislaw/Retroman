@@ -4,16 +4,14 @@ using UnityEngine.UI;
 public class CoinCounter : MonoBehaviour
 {
     [SerializeField] private Text counter;
-    private int num = 0;
 
     private void Start()
     {
-        UpdateCounter();
+        counter.text = 0.ToString();
     }
 
-    public void UpdateCounter()
+    public void UpdateCounter(int newValue)
     {
-        num++;
-        counter.text = num.ToString();
+        counter.text = newValue.ToString();
     }
 }

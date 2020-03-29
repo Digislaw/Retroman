@@ -25,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
     public delegate void OnPlayerDeath();
     public OnPlayerDeath onPlayerDeath;
 
+    [SerializeField] private GameObject deathAnimation;
+
     private void Awake()
     {
         _instance = this;
@@ -80,6 +82,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void TriggerDeath()
     {
+        Instantiate(deathAnimation, transform.position, transform.rotation);
         onPlayerDeath?.Invoke();
     }
 
