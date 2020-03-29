@@ -3,26 +3,17 @@ using UnityEngine.UI;
 
 public class CoinCounter : MonoBehaviour
 {
-    private Text counter;
-
-    private void Awake()
-    {
-        counter = GetComponent<Text>();
-    }
+    [SerializeField] private Text counter;
+    private int num = 0;
 
     private void Start()
     {
-        LevelController.Instance.OnCoindAdded += UpdateCounter;
         UpdateCounter();
     }
 
     public void UpdateCounter()
     {
-        counter.text = LevelController.Instance.Coins.ToString();
-    }
-
-    private void OnDisable()
-    {
-        LevelController.Instance.OnCoindAdded -= UpdateCounter;
+        num++;
+        counter.text = num.ToString();
     }
 }

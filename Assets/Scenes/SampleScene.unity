@@ -821,8 +821,8 @@ GameObject:
   - component: {fileID: 573013163}
   - component: {fileID: 573013162}
   - component: {fileID: 573013164}
-  - component: {fileID: 573013165}
   - component: {fileID: 573013166}
+  - component: {fileID: 573013165}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -923,9 +923,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 573013161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8de99c93ec5b584d99a144d8049e451, type: 3}
+  m_Script: {fileID: 11500000, guid: 404262bb5f91b3b429cb5f3002556418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLayer: {fileID: 11400000, guid: 78c2ac960444bb04b9d7ba44e185d294, type: 2}
+  collectedEvent: {fileID: 11400000, guid: 6a872ece3f96f494484c47b812dd88b7, type: 2}
 --- !u!58 &573013166
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -985,6 +987,7 @@ GameObject:
   - component: {fileID: 664877474}
   - component: {fileID: 664877473}
   - component: {fileID: 664877476}
+  - component: {fileID: 664877477}
   m_Layer: 5
   m_Name: Coin Counter
   m_TagString: Untagged
@@ -1078,6 +1081,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de58421c32994104e84916bbfb1f145a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  counter: {fileID: 664877474}
+--- !u!114 &664877477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664877471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e6595d3f93a1e4d8bd4f03c5eeff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptableEvent: {fileID: 11400000, guid: 6a872ece3f96f494484c47b812dd88b7, type: 2}
+  InvokeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 664877476}
+        m_MethodName: UpdateCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &704914382
 GameObject:
   m_ObjectHideFlags: 0
