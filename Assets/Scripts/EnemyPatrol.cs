@@ -3,18 +3,18 @@
 public class EnemyPatrol : MonoBehaviour
 {
     [Header("Configuration")]
-    [SerializeField] private float speed;
-    [SerializeField] private Transform leftPoint;
-    [SerializeField] private Transform rightPoint;
+    [SerializeField] private float speed;   // predkosc ruchu przeciwnika
+    [SerializeField] private Transform leftPoint;   // punkt po lewej stronie przeciwnika
+    [SerializeField] private Transform rightPoint;  // punkt po prawej stronie przeciwnika
 
+    // komponenty
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
 
-    private bool facingLeft = true;
-    private bool moving = true;
-
-    private float counter;
+    // przelaczanie miedzy ruchem a czekaniem
+    private bool moving = true; // przeciwnik jest w ruchu
+    private float counter;  // odliczanie do nastepnej zmiany trybu
     [SerializeField] private float avgMoveTime; // bazowy czas ruchu
     [SerializeField] private float avgWaitTime; // bazowy czas czekania
 
@@ -59,13 +59,15 @@ public class EnemyPatrol : MonoBehaviour
 
     private void Move()
     {
-        if (facingLeft)
+        // przeciwnik zwrocony w lewo (domyslny stan)
+        if (!sr.flipX)
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
 
             if (transform.position.x < leftPoint.position.x)
                 Flip();
         }
+        // przeciwnik zwrocony w prawo (jego sprite jest odwrocony -> sr.flipX == true)
         else
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
@@ -77,7 +79,6 @@ public class EnemyPatrol : MonoBehaviour
 
     private void Flip()
     {
-        facingLeft = !facingLeft;
-        sr.flipX = !facingLeft;
+        sr.flipX = !sr.flipX;
     }
 }
