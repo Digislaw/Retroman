@@ -2,15 +2,15 @@
 
 public class EnemyPatrol : MonoBehaviour
 {
-    [Header("Configuration")]
-    [SerializeField] private float speed;   // predkosc ruchu przeciwnika
-    [SerializeField] private Transform leftPoint;   // punkt po lewej stronie przeciwnika
-    [SerializeField] private Transform rightPoint;  // punkt po prawej stronie przeciwnika
-
     // komponenty
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
+
+    [Header("Configuration")]
+    [SerializeField] private float speed;   // predkosc ruchu przeciwnika
+    [SerializeField] private Transform leftPoint;   // punkt po lewej stronie przeciwnika
+    [SerializeField] private Transform rightPoint;  // punkt po prawej stronie przeciwnika
 
     // przelaczanie miedzy ruchem a czekaniem
     private bool moving = true; // przeciwnik jest w ruchu
