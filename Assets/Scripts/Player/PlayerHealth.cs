@@ -55,16 +55,19 @@ public class PlayerHealth : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.layer.Equals(damageLayer))
-            DamagePlayer();
+        {
+            Vector2 vec = new Vector2(col.gameObject.transform.position.x - transform.position.x, 0f);
+            DamagePlayer((int)vec.normalized.x);
+        }
     }
 
-    private void DamagePlayer()
+    public void DamagePlayer(int knockbackDirection)
     {
         if (invicibilityCounter > 0f) return;   // gracz jest niesmiertelny, przerwij zadawanie obrazen
 
         ChangeHP(healthPoints - 1);
         
-        pm.Knockback(); // odrzuc gracza
+        pm.Knockback(knockbackDirection); // odrzuc gracza
 
         if (healthPoints > 0)
             TriggerInvicibility();  // tymczasowa niesmiertelnosc zabezpiecza przed nadmiernymi obrazeniami

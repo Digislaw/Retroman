@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Jumping")]
     [SerializeField] private float jumpForce = 20f; // sila skoku
+    [SerializeField] private float bounceForce = 30f;   // sila odbicia od przeciwnika przy jego eliminacji
     [SerializeField] private Transform groundChecker = null;
     [SerializeField] private LayerMask platformFilter = 0; // warstwy, po ktorych mozna skakac
     private bool onGround;
@@ -111,15 +112,20 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("On Ground", onGround);
     }
 
-    public void Knockback()
+    public void Knockback(int knockbackDirection)
     {
         // uruchom blokade
         controlsLockCounter = controlsLockPeriod;
 
         // odrzuc gracza
-        rb.velocity = new Vector2(-knockbackForce * direction, knockbackForce);
+        rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce);
 
         // uruchom odpowiednia animacje
         animator.SetTrigger("Hit");
+    }
+
+    public void Bounce()
+    {
+        rb.velocity = new Vector2(0.5f * bounceForce * direction, bounceForce);
     }
 }
