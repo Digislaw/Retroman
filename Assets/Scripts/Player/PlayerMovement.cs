@@ -31,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float controlsLockPeriod = 0.2f; // czas blokady sterowania podczasu odrzutu
     private float controlsLockCounter; // licznik blokady
 
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip knockbackSound;
+    [SerializeField] private AudioClip jumpSound;
+
     private void Awake()
     {
         _instance = this;
@@ -89,11 +93,17 @@ public class PlayerMovement : MonoBehaviour
         // pojedynczy skok
         if (onGround)
         {
+            // odtworz dzwiek
+            AudioController.Instance.Play(jumpSound);
+
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
         // podwojny skok
         else if (doubleJumpReady)
         {
+            // odtworz dzwiek
+            AudioController.Instance.Play(jumpSound);
+
             rb.velocity = new Vector2(rb.velocity.x, jumpForce * 1.1f);
             doubleJumpReady = false;
             animator.SetTrigger("Double Jump");
@@ -114,6 +124,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Knockback(int knockbackDirection)
     {
+        // odtworz dzwiek
+        AudioController.Instance.Play(knockbackSound);
+
         // uruchom blokade
         controlsLockCounter = controlsLockPeriod;
 
