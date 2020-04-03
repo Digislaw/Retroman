@@ -2,6 +2,9 @@
 
 public class AudioController : Singleton<AudioController>
 {
+    [SerializeField]
+    private AudioClip musicClip;
+
     [Header("Audio Sources")]
     [SerializeField]
     private AudioSource musicSource; // zrodlo muzyki
@@ -18,6 +21,9 @@ public class AudioController : Singleton<AudioController>
     {
         base.Awake();
         DontDestroyOnLoad(gameObject);  // musi istniec przez cala gre, niezaleznie od sceny
+
+        musicSource.clip = musicClip;
+        musicSource.Play();
     }
 
     private void Reset()
