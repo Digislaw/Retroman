@@ -11,7 +11,12 @@ public class SpawnController : MonoBehaviour
     }
 
     public Vector3 CurrentSpawn { get; set; }   // aktualny spawn
-    [SerializeField] private float respawnDelay = 2f; // czas potrzebny do zrespawnowania gracza
+
+    [SerializeField] 
+    private float respawnDelay = 2f; // czas potrzebny do zrespawnowania gracza
+
+    [SerializeField]
+    private FadeEffect fade;
 
     private void Awake()
     {
@@ -35,9 +40,13 @@ public class SpawnController : MonoBehaviour
 
         yield return new WaitForSeconds(respawnDelay);
 
-        PlayerMovement.Instance.gameObject.SetActive(true);
-        PlayerMovement.Instance.gameObject.transform.position = CurrentSpawn;
+        fade.FadeIn();
+        yield return new WaitForSeconds(fade.Duration);
 
+        PlayerMovement.Instance.gameObject.SetActive(true);
+        fade.FadeOut();
+
+        PlayerMovement.Instance.gameObject.transform.position = CurrentSpawn;
         PlayerHealth.Instance.ChangeHP(PlayerHealth.Instance.maxHealth);
     }
 }

@@ -187,7 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef74d3285affe04d82d1fff9bd766f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnDelay: 2
+  respawnDelay: 1.25
+  fade: {fileID: 2052884531}
 --- !u!4 &119269111
 Transform:
   m_ObjectHideFlags: 0
@@ -7466,7 +7467,7 @@ RectTransform:
   - {fileID: 208791113}
   - {fileID: 218145510}
   m_Father: {fileID: 2091205557}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8246,7 +8247,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2091205557}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8265,7 +8266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680da71736460e947b03da778977f8ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectDuration: 1.25
+  effectDuration: 1.5
 --- !u!114 &2052884532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8396,8 +8397,8 @@ RectTransform:
   - {fileID: 1742105903}
   - {fileID: 924130379}
   - {fileID: 71333080}
-  - {fileID: 1555727542}
   - {fileID: 2052884530}
+  - {fileID: 1555727542}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

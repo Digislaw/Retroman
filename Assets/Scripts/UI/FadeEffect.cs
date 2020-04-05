@@ -9,6 +9,8 @@ public class FadeEffect : MonoBehaviour
     [SerializeField] [Tooltip("The effect's duration in seconds.")] [Range(0.5f, 5f)]
     private float effectDuration = 1.5f;   // czas trwania efektu (w sekundach)
 
+    public float Duration { get { return effectDuration; } }
+
     private void Awake()
     {
         img = GetComponent<Image>();
