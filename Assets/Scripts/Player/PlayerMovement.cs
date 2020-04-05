@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
+    [SerializeField]
+    private PauseController pause;
    
     [Header("Horizontal movement")]
     [SerializeField] private float speed = 5f; // predkosc ruchu
@@ -46,6 +48,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (pause.paused) return;
+
         if (controlsLockCounter > 0f)
         {
             // zaktualizuj licznik blokady

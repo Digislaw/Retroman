@@ -6,7 +6,7 @@ public class PauseController : MonoBehaviour
     private GameObject pauseMenu;   // obiekt nadrzedny menu pauzy
     [SerializeField]
     private AudioClip pauseSound;   // dzwiek wlaczenia/wylaczenia pauzy
-    private bool paused = false;
+    public bool paused = false;
 
     private void Update()
     {
