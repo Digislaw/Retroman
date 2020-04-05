@@ -4,11 +4,10 @@ using System.Collections;
 
 public class FadeEffect : MonoBehaviour
 {
-    private Image img;
+    private Image img; // w celu manipulacji przezroczystoscia
 
-    [SerializeField]
-    private float speed = 3f;
-
+    [SerializeField] [Tooltip("The effect's duration in seconds.")] [Range(0.5f, 5f)]
+    private float effectDuration = 1.5f;   // czas trwania efektu (w sekundach)
 
     private void Awake()
     {
@@ -32,7 +31,7 @@ public class FadeEffect : MonoBehaviour
 
     private IEnumerator FadeInCoroutine()
     {
-        for (float a = img.color.a; a <= 1f; a += Time.deltaTime / speed)
+        for (float a = img.color.a; a <= 1f; a += Time.deltaTime / effectDuration)
         {
             Color color = img.color;  // biezacy stan
             color.a = a;
@@ -44,7 +43,7 @@ public class FadeEffect : MonoBehaviour
 
     private IEnumerator FadeOutCoroutine()
     {
-        for(float a = img.color.a; a >= 0f; a -= Time.deltaTime / speed)
+        for(float a = img.color.a; a >= 0f; a -= Time.deltaTime / effectDuration)
         {
             Color color = img.color;  // biezacy stan
             color.a = a;
