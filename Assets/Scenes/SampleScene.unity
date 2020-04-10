@@ -1449,7 +1449,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1339934957}
   - {fileID: 2083039077}
-  speed: 2
+  speed: 2.5
 --- !u!1 &815220509
 GameObject:
   m_ObjectHideFlags: 0
