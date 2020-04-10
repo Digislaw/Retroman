@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip knockbackSound;
     [SerializeField] private AudioClip jumpSound;
 
+    private LayerMask platforms;
+
     private void Awake()
     {
         _instance = this;
@@ -44,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        platforms = LayerMask.NameToLayer("Platforms");
     }
 
     private void Update()
@@ -144,5 +148,17 @@ public class PlayerMovement : MonoBehaviour
     public void Bounce()
     {
         rb.velocity = new Vector2(0.5f * bounceForce * direction, bounceForce);
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.layer == platforms)
+            transform.parent = col.transform;
+    }
+
+    private void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.layer == platforms)
+            transform.parent = null;
     }
 }
