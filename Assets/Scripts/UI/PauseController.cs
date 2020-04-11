@@ -18,7 +18,8 @@ public class PauseController : MonoBehaviour
     {
         paused = !paused;
 
-        AudioController.Instance.Play(pauseSound);
+        AudioController.Instance.SwitchMusic();
+        AudioController.Instance.PlayStrict(pauseSound);
         pauseMenu.SetActive(paused);
         Time.timeScale = paused ? 0f : 1f;
     }

@@ -3,7 +3,7 @@
 public class AudioController : Singleton<AudioController>
 {
     [SerializeField]
-    private AudioClip musicClip;
+    private AudioClip musicClip;    // zapetlona muzyka w tle
 
     [Header("Audio Sources")]
     [SerializeField]
@@ -37,10 +37,23 @@ public class AudioController : Singleton<AudioController>
             gameObject.AddComponent<AudioSource>();
     }
 
-    public void Play(AudioClip clip)
+    public void Play(AudioClip clip, bool strict = false)
     {
         soundSource.clip = clip;
-        soundSource.pitch = Random.Range(minPitch, maxPitch);
+        soundSource.pitch = strict ? 1f : Random.Range(minPitch, maxPitch);
         soundSource.Play();
+    }
+
+    public void PlayStrict(AudioClip clip)
+    {
+        Play(clip, true);
+    }
+
+    public void SwitchMusic()
+    {
+        if (musicSource.isPlaying)
+            musicSource.Pause();
+        else
+            musicSource.UnPause();
     }
 }
