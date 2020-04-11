@@ -4,7 +4,7 @@ public class MovingPlatform : MonoBehaviour
 {
     [SerializeField]
     private Transform[] waypoints;
-    [SerializeField] [Range(0.1f, 5f)]
+    [SerializeField] [Range(0.1f, 2f)]
     private float speed = 2f;
     private int index = 0;  // indeks aktualnego punktu
     private Rigidbody2D rb;
