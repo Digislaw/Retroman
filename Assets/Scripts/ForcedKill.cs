@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class LevelBorder : MonoBehaviour
+public class ForcedKill : MonoBehaviour
 {
     private LayerMask playerLayer;
 
