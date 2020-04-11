@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     // komponenty
     private SpriteRenderer sprite;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb { get; private set; }
     private Animator animator;
     [SerializeField]
     private PauseController pause;
