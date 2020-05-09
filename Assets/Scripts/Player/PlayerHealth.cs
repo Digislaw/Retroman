@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
 
     private int healthPoints;   // aktualna liczba zyc
     public int maxHealth = 4;  // maksymalna liczba zyc
-    private LayerMask damageLayer;  // warstwa zawierajaca pulapki i przeciwnikow
+    private LayerMask damageLayer;  // warstwy zawierajaca pulapki i przeciwnikow
 
     public delegate void OnHealthChange(int healthPoints);  // delegat zmiany HP
     public OnHealthChange onHealthChange;
