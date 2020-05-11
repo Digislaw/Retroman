@@ -11,4 +11,9 @@ public class Layer : ScriptableObject
     {
         return mask == (mask | 1 << otherLayer);
     }
+
+    public static bool Compare(LayerMask mask, int layer)
+    {
+        return mask == (mask | 1 << layer);
+    }
 }
