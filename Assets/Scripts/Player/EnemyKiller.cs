@@ -9,7 +9,7 @@ public class EnemyKiller : MonoBehaviour
     [SerializeField]
     private PlayerMovement pm;
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         if (enemyLayer != (enemyLayer | 1 << col.gameObject.layer)) return;
 
