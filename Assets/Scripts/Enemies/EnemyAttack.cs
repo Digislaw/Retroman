@@ -3,7 +3,7 @@
 public class EnemyAttack : MonoBehaviour
 {
     [SerializeField]
-    private LayerID playerLayer;
+    private Layer playerLayer;
 
     private void OnTriggerStay2D(Collider2D col)
     {

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a2d58f9bbf9f448901b0861d8091fc, type: 3}
-  m_Name: PlayerLayer
+  m_Script: {fileID: 11500000, guid: 1f9ec9d4a7d6c3a498a3dec30402cd09, type: 3}
+  m_Name: Player Layer
   m_EditorClassIdentifier: 
   mask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
