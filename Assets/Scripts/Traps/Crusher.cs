@@ -28,38 +28,35 @@ public class Crusher : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!movingDown && !movingUp) return;
-        Move();
+        if (movingDown || movingUp)
+            Move();
     }
 
     public void Land()
     {
         if (!movingDown && !movingUp)
+        {
             movingDown = true;
+            rb.velocity = new Vector2(rb.velocity.x, -downSpeed);
+        }
+            
     }
 
     private void Move()
     {
-        if(movingDown)
+        // sprawdzenie osiagniecia celu podczas ruchu w dol
+        if(movingDown && Vector3.Distance(transform.position, landingPosition.position) < 1.25f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, -downSpeed);
-
-            if(Vector3.Distance(transform.position, landingPosition.position) < 1.25f)
-            {
-                movingDown = false;
-                movingUp = true;
-            }
-        } 
-        else if(movingUp)
-        {
+            movingDown = false;
+            movingUp = true;
             rb.velocity = new Vector2(rb.velocity.x, upSpeed);
-
-            if (Vector3.Distance(transform.position, idlePosition) < 0.1f)
-            {
-                movingDown = false;
-                movingUp = false;
-                rb.velocity = Vector2.zero;
-            }
+        }
+        // analogicznie dla ruchu w gore
+        else if(movingUp && Vector3.Distance(transform.position, idlePosition) < 0.1f)
+        {
+            movingDown = false;
+            movingUp = false;
+            rb.velocity = Vector2.zero;
         }
     }
 
