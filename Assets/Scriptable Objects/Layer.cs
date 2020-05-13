@@ -5,7 +5,6 @@ public class Layer : ScriptableObject
 {
     [SerializeField]
     private LayerMask mask;
-    public int Value { get { return mask; } }
 
     public bool Compare(int otherLayer)
     {
