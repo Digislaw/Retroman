@@ -298,8 +298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490d1c34ec328484c88914042970594f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  enemyType: {fileID: 11400000, guid: 20406e5412b6efd4e8a336205741ff5d, type: 2}
   leftPoint: {fileID: 4094512868458897371}
   rightPoint: {fileID: 4094512869784484013}
-  avgMoveTime: 5
-  avgWaitTime: 3

@@ -8,15 +8,16 @@ public class EnemyPatrol : MonoBehaviour
     private Animator anim;
 
     [Header("Configuration")]
-    [SerializeField] private float speed;   // predkosc ruchu przeciwnika
-    [SerializeField] private Transform leftPoint;   // punkt po lewej stronie przeciwnika
-    [SerializeField] private Transform rightPoint;  // punkt po prawej stronie przeciwnika
+    [SerializeField]
+    private Enemy enemyType;       // typ przeciwnika
+    [SerializeField] 
+    private Transform leftPoint;   // punkt po lewej stronie przeciwnika
+    [SerializeField] 
+    private Transform rightPoint;  // punkt po prawej stronie przeciwnika
 
-    // przelaczanie miedzy ruchem a czekaniem
+    // przelaczanie miedzy ruchem, a czekaniem
     private bool moving = true; // przeciwnik jest w ruchu
     private float counter;  // odliczanie do nastepnej zmiany trybu
-    [SerializeField] private float avgMoveTime; // bazowy czas ruchu
-    [SerializeField] private float avgWaitTime; // bazowy czas czekania
 
     private void Awake()
     {
@@ -24,7 +25,7 @@ public class EnemyPatrol : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 
-        counter = Random.Range(avgMoveTime * 0.5f, avgMoveTime * 1.5f);
+        counter = enemyType.MoveTime;
     }
 
     private void FixedUpdate()
@@ -37,7 +38,7 @@ public class EnemyPatrol : MonoBehaviour
             
             if(counter <= 0)
             {
-                counter = Random.Range(avgWaitTime * 0.5f, avgWaitTime * 1.5f);
+                counter = enemyType.WaitTime;
                 moving = false;
             }
                 
@@ -48,7 +49,7 @@ public class EnemyPatrol : MonoBehaviour
 
             if (counter <= 0)
             {
-                counter = Random.Range(avgMoveTime * 0.5f, avgMoveTime * 1.5f);
+                counter = enemyType.MoveTime;
                 moving = true;
             }
                 
@@ -62,7 +63,7 @@ public class EnemyPatrol : MonoBehaviour
         // przeciwnik zwrocony w lewo (domyslny stan)
         if (!sr.flipX)
         {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            rb.velocity = new Vector2(-enemyType.Speed, rb.velocity.y);
 
             if (transform.position.x < leftPoint.position.x)
                 Flip();
@@ -70,7 +71,7 @@ public class EnemyPatrol : MonoBehaviour
         // przeciwnik zwrocony w prawo (jego sprite jest odwrocony -> sr.flipX == true)
         else
         {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
+            rb.velocity = new Vector2(enemyType.Speed, rb.velocity.y);
 
             if (transform.position.x > rightPoint.position.x)
                 Flip();
