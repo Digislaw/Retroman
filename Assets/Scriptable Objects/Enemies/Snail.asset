@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce70b5e4678c46d4a87a36a0ce5784be, type: 3}
   m_Name: Snail
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 0.033
   avgMoveTime: 5
   avgWaitTime: 3
+  knockbackForce: 8

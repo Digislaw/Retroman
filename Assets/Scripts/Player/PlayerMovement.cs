@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private bool doubleJumpReady;
 
     [Header("Knockback")]
-    [SerializeField] private float knockbackForce = 8f; // sila odrzutu
+    //[SerializeField] private float knockbackForce = 8f; // sila odrzutu
     [SerializeField] private float controlsLockPeriod = 0.2f; // czas blokady sterowania podczasu odrzutu
     private float controlsLockCounter; // licznik blokady
 
@@ -126,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("On Ground", onGround);
     }
 
-    public void Knockback(int knockbackDirection)
+    public void Knockback(float knockbackForce)
     {
         // odtworz dzwiek
         AudioController.Instance.Play(knockbackSound);
@@ -136,9 +136,8 @@ public class PlayerMovement : MonoBehaviour
 
         // odrzuc gracza
         //rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce);
-        rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce * 0.57735026919f);
+        rb.velocity = new Vector2(-knockbackForce, knockbackForce * 0.57735026919f);
         
-
         // uruchom odpowiednia animacje
         animator.SetTrigger("Hit");
     }

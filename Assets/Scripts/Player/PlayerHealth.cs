@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -41,23 +42,18 @@ public class PlayerHealth : MonoBehaviour
     private void Update()
     {
         // zaktualizuj licznik niesmiertelnosci
-        if (invicibilityCounter > 0f) UpdateCounter();
+        if (invicibilityCounter > 0f) 
+            UpdateCounter();
     }
 
     private void UpdateCounter()
     {
         invicibilityCounter -= Time.deltaTime;
-
-        if (invicibilityCounter < 0f)
-            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 1f);
+            
     }
 
-    
-
-    public void DamagePlayer(int knockbackDirection)
+    public void DamagePlayer()
     {
-        pm.Knockback(knockbackDirection); // odrzuc gracza
-
         if (invicibilityCounter > 0f) return;   // gracz jest niesmiertelny, przerwij zadawanie obrazen
 
         ChangeHP(healthPoints - 1);
@@ -88,6 +84,24 @@ public class PlayerHealth : MonoBehaviour
         invicibilityCounter = invincibilityPeriod;
 
         // zmiana wygladu gracza
-        sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 0.66f);
+        StartCoroutine(Blink());
+    }
+
+    // efekt zmiany przezroczystosci po otrzymaniu obrazen
+    private IEnumerator Blink()
+    {
+        bool alphaChanged = false;
+
+        while(invicibilityCounter > 0f)
+        {
+            sprite.color = new Color(sprite.color.r,
+                                    sprite.color.g,
+                                    sprite.color.b,
+                                    alphaChanged ? 1f : 0.2f );
+            alphaChanged = !alphaChanged;
+            yield return null;
+        }
+
+        sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 1f);   // przywrocenie stanu sprite'a
     }
 }
