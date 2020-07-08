@@ -3,7 +3,8 @@
 public class Trampoline : MonoBehaviour
 {
     private Animator animator;
-    private LayerMask playerLayer;
+    [SerializeField]
+    private Layer playerLayer;
     [SerializeField]
     private float pushForce = 5f;
     [SerializeField]
@@ -12,12 +13,11 @@ public class Trampoline : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        playerLayer = LayerMask.NameToLayer("Player");
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.layer == playerLayer)
+        if(playerLayer.Compare(col.gameObject.layer))
         {
             animator.SetTrigger("Push");
             PlayerMovement.Instance.rb.velocity = new Vector2(PlayerMovement.Instance.rb.velocity.x, pushForce);
