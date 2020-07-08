@@ -1,17 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : Singleton<PlayerHealth>
 {
-    private static PlayerHealth _instance;
-    public static PlayerHealth Instance
-    {
-        get { return _instance; }
-    }
-
     // komponenty
     private SpriteRenderer sprite;
-    private PlayerMovement pm;
 
     private int healthPoints;   // aktualna liczba zyc
     public int maxHealth = 4;  // maksymalna liczba zyc
@@ -28,12 +21,11 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private GameObject deathAnimation;
 
-    private void Awake()
+    protected override void Awake()
     {
-        _instance = this;
+        base.Awake();
 
         sprite = GetComponent<SpriteRenderer>();
-        pm = GetComponent<PlayerMovement>();
 
         damageLayer = LayerMask.NameToLayer("Danger");
         healthPoints = maxHealth;

@@ -1,14 +1,8 @@
 ﻿using UnityEngine;
 
 [DefaultExecutionOrder(-100)]
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Singleton<PlayerMovement>
 {
-    private static PlayerMovement _instance;
-    public static PlayerMovement Instance
-    {
-        get { return _instance; }
-    }
-
     // komponenty
     private SpriteRenderer sprite;
     public Rigidbody2D rb { get; private set; }
@@ -37,9 +31,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip knockbackSound;
     [SerializeField] private AudioClip jumpSound;
 
-    private void Awake()
+    protected override void Awake()
     {
-        _instance = this;
+        //_instance = this;
+        base.Awake();
 
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();

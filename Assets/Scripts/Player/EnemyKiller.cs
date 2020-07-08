@@ -6,8 +6,6 @@ public class EnemyKiller : MonoBehaviour
     private LayerMask enemyLayer;
     [SerializeField]
     private GameObject deathPrefab;
-    [SerializeField]
-    private PlayerMovement movementController;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -16,6 +14,6 @@ public class EnemyKiller : MonoBehaviour
         Instantiate(deathPrefab, col.gameObject.transform.position, col.gameObject.transform.rotation);
         Destroy(col.gameObject);
 
-        movementController.Bounce();
+        PlayerMovement.Instance.Bounce();
     }
 }

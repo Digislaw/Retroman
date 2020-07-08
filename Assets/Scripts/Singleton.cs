@@ -14,7 +14,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
             // instancja jeszcze nie istnieje - przypisz aktualna
             _instance = this as T;
         else
-            // instancja juz istnieje - usun duplikat (zabezpieczenie, sytuacja nie powinna sie zdarzyc)
+            // instancja juz istnieje - usun duplikat (zabezpieczenie)
             Destroy(gameObject);
     }
 }
