@@ -135,7 +135,9 @@ public class PlayerMovement : MonoBehaviour
         controlsLockCounter = controlsLockPeriod;
 
         // odrzuc gracza
-        rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce);
+        //rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce);
+        rb.velocity = new Vector2(-knockbackForce * knockbackDirection, knockbackForce * 0.57735026919f);
+        
 
         // uruchom odpowiednia animacje
         animator.SetTrigger("Hit");
