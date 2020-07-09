@@ -8,5 +8,10 @@ public class MapWaypoint : MonoBehaviour
     private bool levelPoint;    // punkt reprezentuje poziom
 
     [SerializeField]
-    private MapWaypoint north, west, east, south;
+    private MapWaypoint up, left, right, down;  // sasiadujace punkty
+
+    public MapWaypoint Up { get { return up; } }
+    public MapWaypoint Left { get { return left; } }
+    public MapWaypoint Right { get { return right; } }
+    public MapWaypoint Down { get { return down; } }
 }
