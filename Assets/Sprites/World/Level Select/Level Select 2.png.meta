@@ -1,0 +1,6307 @@
+fileFormatVersion: 2
+guid: ab5c6d119f8489d48a22e68e0e9cdb08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2308436366370577431
+    second: Level Select 2_0
+  - first:
+      213: 1649477689769642009
+    second: Level Select 2_1
+  - first:
+      213: -8727255361478904580
+    second: Level Select 2_2
+  - first:
+      213: -3151979029433926877
+    second: Level Select 2_3
+  - first:
+      213: -5517683121580026246
+    second: Level Select 2_4
+  - first:
+      213: 6056217066715782871
+    second: Level Select 2_5
+  - first:
+      213: -220783271992101001
+    second: Level Select 2_6
+  - first:
+      213: 6739823437128146475
+    second: Level Select 2_7
+  - first:
+      213: 501161484258300689
+    second: Level Select 2_8
+  - first:
+      213: -2323538265179563817
+    second: Level Select 2_9
+  - first:
+      213: -5760935434457228555
+    second: Level Select 2_10
+  - first:
+      213: -1942520817690822668
+    second: Level Select 2_11
+  - first:
+      213: 9116148073267542892
+    second: Level Select 2_12
+  - first:
+      213: 7292337725254111021
+    second: Level Select 2_13
+  - first:
+      213: 2159049026765485183
+    second: Level Select 2_14
+  - first:
+      213: -1951238095226052412
+    second: Level Select 2_15
+  - first:
+      213: 2642139114701666085
+    second: Level Select 2_16
+  - first:
+      213: 3931568040896569881
+    second: Level Select 2_17
+  - first:
+      213: 3957648421748274834
+    second: Level Select 2_18
+  - first:
+      213: 8406910448421382489
+    second: Level Select 2_19
+  - first:
+      213: -6446018698213409927
+    second: Level Select 2_20
+  - first:
+      213: -16110912908397591
+    second: Level Select 2_21
+  - first:
+      213: -6999350170136382236
+    second: Level Select 2_22
+  - first:
+      213: -8961851812667623011
+    second: Level Select 2_23
+  - first:
+      213: 3307809831589411721
+    second: Level Select 2_24
+  - first:
+      213: -3391443081985040477
+    second: Level Select 2_25
+  - first:
+      213: 7572156731310072577
+    second: Level Select 2_26
+  - first:
+      213: -3305608851453646409
+    second: Level Select 2_27
+  - first:
+      213: 4492909959660170748
+    second: Level Select 2_28
+  - first:
+      213: -7398508764480606551
+    second: Level Select 2_29
+  - first:
+      213: 136429609918445029
+    second: Level Select 2_30
+  - first:
+      213: 311058409167499031
+    second: Level Select 2_31
+  - first:
+      213: -6511301737702843502
+    second: Level Select 2_32
+  - first:
+      213: 3524259263652960586
+    second: Level Select 2_33
+  - first:
+      213: -7208749526968306562
+    second: Level Select 2_34
+  - first:
+      213: -1034071932690606321
+    second: Level Select 2_35
+  - first:
+      213: 7638752047646875653
+    second: Level Select 2_36
+  - first:
+      213: -1162543345930608591
+    second: Level Select 2_37
+  - first:
+      213: 465821899793376533
+    second: Level Select 2_38
+  - first:
+      213: 4296615954132107968
+    second: Level Select 2_39
+  - first:
+      213: -4310422635030121250
+    second: Level Select 2_40
+  - first:
+      213: 823087844352555196
+    second: Level Select 2_41
+  - first:
+      213: 3240715520471729971
+    second: Level Select 2_42
+  - first:
+      213: 6636746041885171542
+    second: Level Select 2_43
+  - first:
+      213: 2237187695061542511
+    second: Level Select 2_44
+  - first:
+      213: 4246757624334116804
+    second: Level Select 2_45
+  - first:
+      213: -7380576692399684987
+    second: Level Select 2_46
+  - first:
+      213: 6868514824067756771
+    second: Level Select 2_47
+  - first:
+      213: -4301400933719248840
+    second: Level Select 2_48
+  - first:
+      213: -4342996288148147949
+    second: Level Select 2_49
+  - first:
+      213: 7125559260166642455
+    second: Level Select 2_50
+  - first:
+      213: 6440046581142474791
+    second: Level Select 2_51
+  - first:
+      213: 6613095284088750445
+    second: Level Select 2_52
+  - first:
+      213: 2991092944536731165
+    second: Level Select 2_53
+  - first:
+      213: -7289440736041205996
+    second: Level Select 2_54
+  - first:
+      213: -3105061730991846345
+    second: Level Select 2_55
+  - first:
+      213: -8719507220848341218
+    second: Level Select 2_56
+  - first:
+      213: -2015613505346222652
+    second: Level Select 2_57
+  - first:
+      213: -9022961883092501148
+    second: Level Select 2_58
+  - first:
+      213: -144724674177437874
+    second: Level Select 2_59
+  - first:
+      213: -2343888442541350560
+    second: Level Select 2_60
+  - first:
+      213: 6820179317596828565
+    second: Level Select 2_61
+  - first:
+      213: 8527295614019022970
+    second: Level Select 2_62
+  - first:
+      213: 1186346236843722675
+    second: Level Select 2_63
+  - first:
+      213: -8341359008832532352
+    second: Level Select 2_64
+  - first:
+      213: 4560392975771210999
+    second: Level Select 2_65
+  - first:
+      213: -7023689157281419752
+    second: Level Select 2_66
+  - first:
+      213: 3618709205685780996
+    second: Level Select 2_67
+  - first:
+      213: -5845446027301674637
+    second: Level Select 2_68
+  - first:
+      213: 3027813615336343717
+    second: Level Select 2_69
+  - first:
+      213: -2786547313405838617
+    second: Level Select 2_70
+  - first:
+      213: -1683264443144632625
+    second: Level Select 2_71
+  - first:
+      213: 6939443298648686922
+    second: Level Select 2_72
+  - first:
+      213: -8858660495649664359
+    second: Level Select 2_73
+  - first:
+      213: 6300998231751062164
+    second: Level Select 2_74
+  - first:
+      213: 7118609896276056373
+    second: Level Select 2_75
+  - first:
+      213: 6253222558761054312
+    second: Level Select 2_76
+  - first:
+      213: 4453936438055223151
+    second: Level Select 2_77
+  - first:
+      213: -45191134161260710
+    second: Level Select 2_78
+  - first:
+      213: -8948207816647714463
+    second: Level Select 2_79
+  - first:
+      213: -478450779474833820
+    second: Level Select 2_80
+  - first:
+      213: 1079552612439482242
+    second: Level Select 2_81
+  - first:
+      213: -3235112205992180450
+    second: Level Select 2_82
+  - first:
+      213: 4880691293318536451
+    second: Level Select 2_83
+  - first:
+      213: -3780997743545268113
+    second: Level Select 2_84
+  - first:
+      213: 4630947013043727857
+    second: Level Select 2_85
+  - first:
+      213: -8736959344366103370
+    second: Level Select 2_86
+  - first:
+      213: 893465672424032952
+    second: Level Select 2_87
+  - first:
+      213: -6081452556255506707
+    second: Level Select 2_88
+  - first:
+      213: 3685540318389372066
+    second: Level Select 2_89
+  - first:
+      213: 5444386176133442195
+    second: Level Select 2_90
+  - first:
+      213: -6433366702753217008
+    second: Level Select 2_91
+  - first:
+      213: -2252682590415183034
+    second: Level Select 2_92
+  - first:
+      213: 7459700137213017437
+    second: Level Select 2_93
+  - first:
+      213: -787945377021260773
+    second: Level Select 2_94
+  - first:
+      213: 2154296134416165751
+    second: Level Select 2_95
+  - first:
+      213: -7885309816205387596
+    second: Level Select 2_96
+  - first:
+      213: -2967105157669871618
+    second: Level Select 2_97
+  - first:
+      213: -5405056865096935863
+    second: Level Select 2_98
+  - first:
+      213: 8991372018668711408
+    second: Level Select 2_99
+  - first:
+      213: -489156353202809879
+    second: Level Select 2_100
+  - first:
+      213: 8532629563977790853
+    second: Level Select 2_101
+  - first:
+      213: 7866204337515638628
+    second: Level Select 2_102
+  - first:
+      213: 8277814033721022023
+    second: Level Select 2_103
+  - first:
+      213: 7692710751063331819
+    second: Level Select 2_104
+  - first:
+      213: -2510073122635274778
+    second: Level Select 2_105
+  - first:
+      213: -7362566229356984182
+    second: Level Select 2_106
+  - first:
+      213: 6797728462671363856
+    second: Level Select 2_107
+  - first:
+      213: -4893891721206231342
+    second: Level Select 2_108
+  - first:
+      213: -6044480993856783677
+    second: Level Select 2_109
+  - first:
+      213: -8806084809895415836
+    second: Level Select 2_110
+  - first:
+      213: -7989531813091445569
+    second: Level Select 2_111
+  - first:
+      213: -1161441195345357726
+    second: Level Select 2_112
+  - first:
+      213: 1152948850410846850
+    second: Level Select 2_113
+  - first:
+      213: 2915452831205005733
+    second: Level Select 2_114
+  - first:
+      213: -5652559265428547091
+    second: Level Select 2_115
+  - first:
+      213: 2148446493293208141
+    second: Level Select 2_116
+  - first:
+      213: -2900950045361715594
+    second: Level Select 2_117
+  - first:
+      213: 843163024382470280
+    second: Level Select 2_118
+  - first:
+      213: 5866579980440661019
+    second: Level Select 2_119
+  - first:
+      213: 7374390004337568184
+    second: Level Select 2_120
+  - first:
+      213: 4943862847062103882
+    second: Level Select 2_121
+  - first:
+      213: 8590115016393126538
+    second: Level Select 2_122
+  - first:
+      213: -6056789470163841091
+    second: Level Select 2_123
+  - first:
+      213: -3564791088403369473
+    second: Level Select 2_124
+  - first:
+      213: -1565380402326717645
+    second: Level Select 2_125
+  - first:
+      213: -5704162345452363960
+    second: Level Select 2_126
+  - first:
+      213: 8718780196642392302
+    second: Level Select 2_127
+  - first:
+      213: 1214395348044131174
+    second: Level Select 2_128
+  - first:
+      213: 4143837633823633292
+    second: Level Select 2_129
+  - first:
+      213: -2169321406707065323
+    second: Level Select 2_130
+  - first:
+      213: 5435269011778220309
+    second: Level Select 2_131
+  - first:
+      213: 1085280411572938415
+    second: Level Select 2_132
+  - first:
+      213: 3437955570727406488
+    second: Level Select 2_133
+  - first:
+      213: 6918297448405743814
+    second: Level Select 2_134
+  - first:
+      213: -2120073291593368966
+    second: Level Select 2_135
+  - first:
+      213: 8507935787184651142
+    second: Level Select 2_136
+  - first:
+      213: 5024095415587187100
+    second: Level Select 2_137
+  - first:
+      213: -1177002092876971699
+    second: Level Select 2_138
+  - first:
+      213: -7742131994012227457
+    second: Level Select 2_139
+  - first:
+      213: -1583348227694726820
+    second: Level Select 2_140
+  - first:
+      213: 8107404388006751864
+    second: Level Select 2_141
+  - first:
+      213: -5923199963329911426
+    second: Level Select 2_142
+  - first:
+      213: 7557762980237210869
+    second: Level Select 2_143
+  - first:
+      213: 367555834818286691
+    second: Level Select 2_144
+  - first:
+      213: -6402901943705287362
+    second: Level Select 2_145
+  - first:
+      213: -906579301838553041
+    second: Level Select 2_146
+  - first:
+      213: -1531441406721114435
+    second: Level Select 2_147
+  - first:
+      213: -7453035433167031939
+    second: Level Select 2_148
+  - first:
+      213: -7568146083011593965
+    second: Level Select 2_149
+  - first:
+      213: -3571328264201061250
+    second: Level Select 2_150
+  - first:
+      213: 2426314829366977233
+    second: Level Select 2_151
+  - first:
+      213: 271765862388827597
+    second: Level Select 2_152
+  - first:
+      213: 8382395368426265241
+    second: Level Select 2_153
+  - first:
+      213: -3898100822920387116
+    second: Level Select 2_154
+  - first:
+      213: -900884386101720620
+    second: Level Select 2_155
+  - first:
+      213: 126933132824872039
+    second: Level Select 2_156
+  - first:
+      213: 1379726718931278587
+    second: Level Select 2_157
+  - first:
+      213: -7414248780863557856
+    second: Level Select 2_158
+  - first:
+      213: 8313457840460170539
+    second: Level Select 2_159
+  - first:
+      213: 889723272656207845
+    second: Level Select 2_160
+  - first:
+      213: -2020956676452468739
+    second: Level Select 2_161
+  - first:
+      213: -7477025563675150666
+    second: Level Select 2_162
+  - first:
+      213: -6315673656759416655
+    second: Level Select 2_163
+  - first:
+      213: 1923231660639441231
+    second: Level Select 2_164
+  - first:
+      213: 7654299352294745147
+    second: Level Select 2_165
+  - first:
+      213: 1521172473767010530
+    second: Level Select 2_166
+  - first:
+      213: 88301557032059170
+    second: Level Select 2_167
+  - first:
+      213: 5419902908892732867
+    second: Level Select 2_168
+  - first:
+      213: -3042911846058745535
+    second: Level Select 2_169
+  - first:
+      213: -6813279930712920140
+    second: Level Select 2_170
+  - first:
+      213: 1167021076687037017
+    second: Level Select 2_171
+  - first:
+      213: 2875589823840823208
+    second: Level Select 2_172
+  - first:
+      213: 7962191084822587919
+    second: Level Select 2_173
+  - first:
+      213: -2748965744101259688
+    second: Level Select 2_174
+  - first:
+      213: 2704622909804433388
+    second: Level Select 2_175
+  - first:
+      213: -2262263568663901650
+    second: Level Select 2_176
+  - first:
+      213: 6945373673336224222
+    second: Level Select 2_177
+  - first:
+      213: 3426614232742304115
+    second: Level Select 2_178
+  - first:
+      213: 7557496696239277517
+    second: Level Select 2_179
+  - first:
+      213: 3193443049967558525
+    second: Level Select 2_180
+  - first:
+      213: 1152642801693524163
+    second: Level Select 2_181
+  - first:
+      213: -5751231086211038294
+    second: Level Select 2_182
+  - first:
+      213: 8071440419141770943
+    second: Level Select 2_183
+  - first:
+      213: -1328185591574167428
+    second: Level Select 2_184
+  - first:
+      213: 22725057858633465
+    second: Level Select 2_185
+  - first:
+      213: -2372224557832914728
+    second: Level Select 2_186
+  - first:
+      213: 9026078166221070353
+    second: Level Select 2_187
+  - first:
+      213: 6712462736602280154
+    second: Level Select 2_188
+  - first:
+      213: -3451547964285457533
+    second: Level Select 2_189
+  - first:
+      213: -448306033932297066
+    second: Level Select 2_190
+  - first:
+      213: 3089880195577639283
+    second: Level Select 2_191
+  - first:
+      213: -7279642469667483778
+    second: Level Select 2_192
+  - first:
+      213: -3187247328285722467
+    second: Level Select 2_193
+  - first:
+      213: 8672231637916672351
+    second: Level Select 2_194
+  - first:
+      213: -8606370278031138556
+    second: Level Select 2_195
+  - first:
+      213: -9037691780735785888
+    second: Level Select 2_196
+  - first:
+      213: 8908925618485914474
+    second: Level Select 2_197
+  - first:
+      213: 3878797261417141673
+    second: Level Select 2_198
+  - first:
+      213: 524929436392078550
+    second: Level Select 2_199
+  - first:
+      213: -1909309667527058529
+    second: Level Select 2_200
+  - first:
+      213: 4042507251221913155
+    second: Level Select 2_201
+  - first:
+      213: -7503774950925807208
+    second: Level Select 2_202
+  - first:
+      213: 6357627142774349431
+    second: Level Select 2_203
+  - first:
+      213: 3196614153535827825
+    second: Level Select 2_204
+  - first:
+      213: -108768375968014872
+    second: Level Select 2_205
+  - first:
+      213: -7063091283255567564
+    second: Level Select 2_206
+  - first:
+      213: -2176921379801294951
+    second: Level Select 2_207
+  - first:
+      213: 5651582407218790501
+    second: Level Select 2_208
+  - first:
+      213: -888600707698655602
+    second: Level Select 2_209
+  - first:
+      213: -4882651429469989782
+    second: Level Select 2_210
+  - first:
+      213: 6632371280581468720
+    second: Level Select 2_211
+  - first:
+      213: -2748797571705199163
+    second: Level Select 2_212
+  - first:
+      213: 6818651212842517474
+    second: Level Select 2_213
+  - first:
+      213: 753588386296141079
+    second: Level Select 2_214
+  - first:
+      213: 6373285913637641082
+    second: Level Select 2_215
+  - first:
+      213: -1357329183939652921
+    second: Level Select 2_216
+  - first:
+      213: -529776093014002271
+    second: Level Select 2_217
+  - first:
+      213: -7288084937768121144
+    second: Level Select 2_218
+  - first:
+      213: 6240602058671166566
+    second: Level Select 2_219
+  - first:
+      213: 7130080912552448094
+    second: Level Select 2_220
+  - first:
+      213: 8645096650770940293
+    second: Level Select 2_221
+  - first:
+      213: -8349644541097935340
+    second: Level Select 2_222
+  - first:
+      213: -2411053442426089723
+    second: Level Select 2_223
+  - first:
+      213: 70480210527224234
+    second: Level Select 2_224
+  - first:
+      213: 1980600229990075119
+    second: Level Select 2_225
+  - first:
+      213: 2052365321461995288
+    second: Level Select 2_226
+  - first:
+      213: 3218533623101502238
+    second: Level Select 2_227
+  - first:
+      213: -7495701131950193443
+    second: Level Select 2_228
+  - first:
+      213: -2261113478532194620
+    second: Level Select 2_229
+  - first:
+      213: -6608666725134198640
+    second: Level Select 2_230
+  - first:
+      213: 7594010774185576788
+    second: Level Select 2_231
+  - first:
+      213: -2565238890941825602
+    second: Level Select 2_232
+  - first:
+      213: 2084507939828135243
+    second: Level Select 2_233
+  - first:
+      213: -5142089734702163280
+    second: Level Select 2_234
+  - first:
+      213: -5762532971968925727
+    second: Level Select 2_235
+  - first:
+      213: -5234309420207009067
+    second: Level Select 2_236
+  - first:
+      213: -6837785009475162349
+    second: Level Select 2_237
+  - first:
+      213: 2039757604699615694
+    second: Level Select 2_238
+  - first:
+      213: 3939554036795547854
+    second: Level Select 2_239
+  - first:
+      213: 7005674639419317374
+    second: Level Select 2_240
+  - first:
+      213: -3431884050014698602
+    second: Level Select 2_241
+  - first:
+      213: -1810349848943972726
+    second: Level Select 2_242
+  - first:
+      213: 6773539951057282716
+    second: Level Select 2_243
+  - first:
+      213: 1923223010452186212
+    second: Level Select 2_244
+  - first:
+      213: -3231625494252507936
+    second: Level Select 2_245
+  - first:
+      213: -6489707207135480063
+    second: Level Select 2_246
+  - first:
+      213: -187395623333817975
+    second: Level Select 2_247
+  - first:
+      213: 4029131449086319332
+    second: Level Select 2_248
+  - first:
+      213: 6743357414120113081
+    second: Level Select 2_249
+  - first:
+      213: 2866466481878571120
+    second: Level Select 2_250
+  - first:
+      213: 8833630377971552207
+    second: Level Select 2_251
+  - first:
+      213: 2892690301918151903
+    second: Level Select 2_252
+  - first:
+      213: 3211051153781488551
+    second: Level Select 2_253
+  - first:
+      213: -797171199892850846
+    second: Level Select 2_254
+  - first:
+      213: 2994591759449107254
+    second: Level Select 2_255
+  - first:
+      213: 2725466261667274796
+    second: Level Select 2_256
+  - first:
+      213: 5812661345953946739
+    second: Level Select 2_257
+  - first:
+      213: 3042021321654916366
+    second: Level Select 2_258
+  - first:
+      213: -6758933441314442409
+    second: Level Select 2_259
+  - first:
+      213: 1964621246550551004
+    second: Level Select 2_260
+  - first:
+      213: 8230609464833746486
+    second: Level Select 2_261
+  - first:
+      213: 2994097612031861074
+    second: Level Select 2_262
+  - first:
+      213: 5735584471091302709
+    second: Level Select 2_263
+  - first:
+      213: 3213132829801407577
+    second: Level Select 2_264
+  - first:
+      213: -8899466916846981750
+    second: Level Select 2_265
+  - first:
+      213: -5544474590823922339
+    second: Level Select 2_266
+  - first:
+      213: -835751949551423709
+    second: Level Select 2_267
+  - first:
+      213: 2246919084532130638
+    second: Level Select 2_268
+  - first:
+      213: -5879116877567726228
+    second: Level Select 2_269
+  - first:
+      213: 1125350021100372599
+    second: Level Select 2_270
+  - first:
+      213: -1367074337805786101
+    second: Level Select 2_271
+  - first:
+      213: 1899148114432396903
+    second: Level Select 2_272
+  - first:
+      213: -7803748712477919613
+    second: Level Select 2_273
+  - first:
+      213: 6373460079425983886
+    second: Level Select 2_274
+  - first:
+      213: 967580729057724407
+    second: Level Select 2_275
+  - first:
+      213: 2161131319403945237
+    second: Level Select 2_276
+  - first:
+      213: 940031319242001117
+    second: Level Select 2_277
+  - first:
+      213: -274279817667508006
+    second: Level Select 2_278
+  - first:
+      213: -2855867786214498892
+    second: Level Select 2_279
+  - first:
+      213: 7486232815717072052
+    second: Level Select 2_280
+  - first:
+      213: -2564969500213913222
+    second: Level Select 2_281
+  - first:
+      213: -8127586457327263139
+    second: Level Select 2_282
+  - first:
+      213: 9067640302191424056
+    second: Level Select 2_283
+  - first:
+      213: -2157583773813768135
+    second: Level Select 2_284
+  - first:
+      213: -7739567225384030264
+    second: Level Select 2_285
+  - first:
+      213: -977932383738100730
+    second: Level Select 2_286
+  - first:
+      213: 6813848549405624268
+    second: Level Select 2_287
+  - first:
+      213: 2961769273163849380
+    second: Level Select 2_288
+  - first:
+      213: 385578392853879471
+    second: Level Select 2_289
+  - first:
+      213: -1846849171527007174
+    second: Level Select 2_290
+  - first:
+      213: 3950265047772863640
+    second: Level Select 2_291
+  - first:
+      213: 7776716011772108805
+    second: Level Select 2_292
+  - first:
+      213: -3380645295514325760
+    second: Level Select 2_293
+  - first:
+      213: -6146803666936801980
+    second: Level Select 2_294
+  - first:
+      213: 8699714444550107847
+    second: Level Select 2_295
+  - first:
+      213: -1443859695718296809
+    second: Level Select 2_296
+  - first:
+      213: 1818071619091817944
+    second: Level Select 2_297
+  - first:
+      213: 571114322205191475
+    second: Level Select 2_298
+  - first:
+      213: 7407700848540094594
+    second: Level Select 2_299
+  - first:
+      213: -7770600751112556492
+    second: Level Select 2_300
+  - first:
+      213: 2296386254151037315
+    second: Level Select 2_301
+  - first:
+      213: 3692909626388139246
+    second: Level Select 2_302
+  - first:
+      213: -7759316369184593082
+    second: Level Select 2_303
+  - first:
+      213: -4951770410726552464
+    second: Level Select 2_304
+  - first:
+      213: -8420507005932903204
+    second: Level Select 2_305
+  - first:
+      213: 6572134454767439338
+    second: Level Select 2_306
+  - first:
+      213: -1812399419080896970
+    second: Level Select 2_307
+  - first:
+      213: -5116624864410227036
+    second: Level Select 2_308
+  - first:
+      213: -6013448149977343114
+    second: Level Select 2_309
+  - first:
+      213: -4513192017610878945
+    second: Level Select 2_310
+  - first:
+      213: 8021544531465019533
+    second: Level Select 2_311
+  - first:
+      213: -4579340168290629741
+    second: Level Select 2_312
+  - first:
+      213: -3922368684354300149
+    second: Level Select 2_313
+  - first:
+      213: 1706576352443355459
+    second: Level Select 2_314
+  - first:
+      213: 1444605115770662395
+    second: Level Select 2_315
+  - first:
+      213: -1305535394469287609
+    second: Level Select 2_316
+  - first:
+      213: -5037189065740096128
+    second: Level Select 2_317
+  - first:
+      213: 6529630114042856192
+    second: Level Select 2_318
+  - first:
+      213: -8640399960534544080
+    second: Level Select 2_319
+  - first:
+      213: -777177000875543455
+    second: Level Select 2_320
+  - first:
+      213: -3990827333482173449
+    second: Level Select 2_321
+  - first:
+      213: -4761657781105364188
+    second: Level Select 2_322
+  - first:
+      213: 7208655902929574197
+    second: Level Select 2_323
+  - first:
+      213: 8569530098811147604
+    second: Level Select 2_324
+  - first:
+      213: -3867721676492522923
+    second: Level Select 2_325
+  - first:
+      213: -4692402317181150573
+    second: Level Select 2_326
+  - first:
+      213: 3907248703035856912
+    second: Level Select 2_327
+  - first:
+      213: -3478448251018682576
+    second: Level Select 2_328
+  - first:
+      213: -6653572865611247755
+    second: Level Select 2_329
+  - first:
+      213: -2573440912031616390
+    second: Level Select 2_330
+  - first:
+      213: 5588687832287903105
+    second: Level Select 2_331
+  - first:
+      213: 6641212266107154089
+    second: Level Select 2_332
+  - first:
+      213: -6920992332286485913
+    second: Level Select 2_333
+  - first:
+      213: 1952728289316585980
+    second: Level Select 2_334
+  - first:
+      213: -4008068594098910483
+    second: Level Select 2_335
+  - first:
+      213: 2211408474174188130
+    second: Level Select 2_336
+  - first:
+      213: 7222116513075621173
+    second: Level Select 2_337
+  - first:
+      213: -3512457146948218307
+    second: Level Select 2_338
+  - first:
+      213: 4004004622350519228
+    second: Level Select 2_339
+  - first:
+      213: 1910462042620209669
+    second: Level Select 2_340
+  - first:
+      213: 1366252132465373051
+    second: Level Select 2_341
+  - first:
+      213: 7355597378537530122
+    second: Level Select 2_342
+  - first:
+      213: 6398635670214977042
+    second: Level Select 2_343
+  - first:
+      213: -1697429527523905456
+    second: Level Select 2_344
+  - first:
+      213: -766961408257051273
+    second: Level Select 2_345
+  - first:
+      213: -2669502516040452398
+    second: Level Select 2_346
+  - first:
+      213: -8034296828443339098
+    second: Level Select 2_347
+  - first:
+      213: 6580234458710621415
+    second: Level Select 2_348
+  - first:
+      213: 3564061227141208965
+    second: Level Select 2_349
+  - first:
+      213: -7360188516623845352
+    second: Level Select 2_350
+  - first:
+      213: -242942839577419538
+    second: Level Select 2_351
+  - first:
+      213: 4464792041898336257
+    second: Level Select 2_352
+  - first:
+      213: -6084379409006777129
+    second: Level Select 2_353
+  - first:
+      213: 3825317982711214982
+    second: Level Select 2_354
+  - first:
+      213: 8243106105412003587
+    second: Level Select 2_355
+  - first:
+      213: -2098287708440812955
+    second: Level Select 2_356
+  - first:
+      213: 6757841848187450977
+    second: Level Select 2_357
+  - first:
+      213: 8291301419018284767
+    second: Level Select 2_358
+  - first:
+      213: -1581631124891950932
+    second: Level Select 2_359
+  - first:
+      213: -8589284036176990916
+    second: Level Select 2_360
+  - first:
+      213: -7941187036176566493
+    second: Level Select 2_361
+  - first:
+      213: 606390422431046102
+    second: Level Select 2_362
+  - first:
+      213: -1140378735874999200
+    second: Level Select 2_363
+  - first:
+      213: 4435198711059066993
+    second: Level Select 2_364
+  - first:
+      213: -2348385390402113910
+    second: Level Select 2_365
+  - first:
+      213: 1117822337785962476
+    second: Level Select 2_366
+  - first:
+      213: 1531222859396468176
+    second: Level Select 2_367
+  - first:
+      213: 3926422451911896936
+    second: Level Select 2_368
+  - first:
+      213: 967085065812439369
+    second: Level Select 2_369
+  - first:
+      213: -163625816258030073
+    second: Level Select 2_370
+  - first:
+      213: 4959241342139519603
+    second: Level Select 2_371
+  - first:
+      213: 6794108200318396199
+    second: Level Select 2_372
+  - first:
+      213: -7567850116294520675
+    second: Level Select 2_373
+  - first:
+      213: -2018752919209249625
+    second: Level Select 2_374
+  - first:
+      213: 5753369887146908897
+    second: Level Select 2_375
+  - first:
+      213: 144271871724618174
+    second: Level Select 2_376
+  - first:
+      213: -1429876350113575551
+    second: Level Select 2_377
+  - first:
+      213: 594578145840138409
+    second: Level Select 2_378
+  - first:
+      213: -2425701972534707421
+    second: Level Select 2_379
+  - first:
+      213: -1801150190143170777
+    second: Level Select 2_380
+  - first:
+      213: 4323909001977554333
+    second: Level Select 2_381
+  - first:
+      213: -5680472113004817440
+    second: Level Select 2_382
+  - first:
+      213: -5396189691858936533
+    second: Level Select 2_383
+  - first:
+      213: 5171563507252295639
+    second: Level Select 2_384
+  - first:
+      213: 9068346406926031551
+    second: Level Select 2_385
+  - first:
+      213: 8311444075815435456
+    second: Level Select 2_386
+  - first:
+      213: 5498913521658296055
+    second: Level Select 2_387
+  - first:
+      213: 903275712802386732
+    second: Level Select 2_388
+  - first:
+      213: 2879662933034723670
+    second: Level Select 2_389
+  - first:
+      213: 1071461238369759577
+    second: Level Select 2_390
+  - first:
+      213: -2298589416031018291
+    second: Level Select 2_391
+  - first:
+      213: -4047083415985063251
+    second: Level Select 2_392
+  - first:
+      213: 1655466374678543162
+    second: Level Select 2_393
+  - first:
+      213: 929806084813032150
+    second: Level Select 2_394
+  - first:
+      213: -5981653671363959803
+    second: Level Select 2_395
+  - first:
+      213: -5258506538608827965
+    second: Level Select 2_396
+  - first:
+      213: 8353803009999782884
+    second: Level Select 2_397
+  - first:
+      213: -5557105542870269751
+    second: Level Select 2_398
+  - first:
+      213: -1995313745298416064
+    second: Level Select 2_399
+  - first:
+      213: -8095901229210272458
+    second: Level Select 2_400
+  - first:
+      213: 4471586857397907396
+    second: Level Select 2_401
+  - first:
+      213: -8771626781150944823
+    second: Level Select 2_402
+  - first:
+      213: 7521713099819684925
+    second: Level Select 2_403
+  - first:
+      213: 8191895440332891831
+    second: Level Select 2_404
+  - first:
+      213: 2265519394308126108
+    second: Level Select 2_405
+  - first:
+      213: -333761254389021200
+    second: Level Select 2_406
+  - first:
+      213: -7810004183114398371
+    second: Level Select 2_407
+  - first:
+      213: -8650876173318647838
+    second: Level Select 2_408
+  - first:
+      213: -2648559932183160619
+    second: Level Select 2_409
+  - first:
+      213: -6291646466828959404
+    second: Level Select 2_410
+  - first:
+      213: 1889917106260623927
+    second: Level Select 2_411
+  - first:
+      213: -3306091519136004021
+    second: Level Select 2_412
+  - first:
+      213: -661743394867938420
+    second: Level Select 2_413
+  - first:
+      213: -276650584812007519
+    second: Level Select 2_414
+  - first:
+      213: 5193810038494381124
+    second: Level Select 2_415
+  - first:
+      213: -6765639557401649865
+    second: Level Select 2_416
+  - first:
+      213: -7557616275060066894
+    second: Level Select 2_417
+  - first:
+      213: -1165920653071486927
+    second: Level Select 2_418
+  - first:
+      213: 9117751650895690253
+    second: Level Select 2_419
+  - first:
+      213: 7152662364786588064
+    second: Level Select 2_420
+  - first:
+      213: 6483552558271679139
+    second: Level Select 2_421
+  - first:
+      213: -5273399470441984106
+    second: Level Select 2_422
+  - first:
+      213: -5196787875214521481
+    second: Level Select 2_423
+  - first:
+      213: 5197445789599860757
+    second: Level Select 2_424
+  - first:
+      213: 8327874729342583776
+    second: Level Select 2_425
+  - first:
+      213: 80708861422807385
+    second: Level Select 2_426
+  - first:
+      213: 7390179874847151747
+    second: Level Select 2_427
+  - first:
+      213: 3711864317176841330
+    second: Level Select 2_428
+  - first:
+      213: -2830855834321212909
+    second: Level Select 2_429
+  - first:
+      213: 7355406558653316775
+    second: Level Select 2_430
+  - first:
+      213: -7946541110111249207
+    second: Level Select 2_431
+  - first:
+      213: 8424840231414949237
+    second: Level Select 2_432
+  - first:
+      213: 7746986869298641866
+    second: Level Select 2_433
+  - first:
+      213: -6252472555018405236
+    second: Level Select 2_434
+  - first:
+      213: -4578121012024005737
+    second: Level Select 2_435
+  - first:
+      213: -4222004110302584573
+    second: Level Select 2_436
+  - first:
+      213: -3688242523951640891
+    second: Level Select 2_437
+  - first:
+      213: -3749986407141268617
+    second: Level Select 2_438
+  - first:
+      213: 267420888292316690
+    second: Level Select 2_439
+  - first:
+      213: 2844342158038018347
+    second: Level Select 2_440
+  - first:
+      213: 4800911922311328763
+    second: Level Select 2_441
+  - first:
+      213: 7937656506091987741
+    second: Level Select 2_442
+  - first:
+      213: 8889706211192337173
+    second: Level Select 2_443
+  - first:
+      213: 5172975487692192655
+    second: Level Select 2_444
+  - first:
+      213: -1968087986020044330
+    second: Level Select 2_445
+  - first:
+      213: 8513562737708472244
+    second: Level Select 2_446
+  - first:
+      213: -1326792283912724085
+    second: Level Select 2_447
+  - first:
+      213: -894829171616630148
+    second: Level Select 2_448
+  - first:
+      213: -100313860445045704
+    second: Level Select 2_449
+  - first:
+      213: -5774101919548907328
+    second: Level Select 2_450
+  - first:
+      213: 6851752884311036973
+    second: Level Select 2_451
+  - first:
+      213: -2919374015720969807
+    second: Level Select 2_452
+  - first:
+      213: -1005282848056792284
+    second: Level Select 2_453
+  - first:
+      213: -408920168890155743
+    second: Level Select 2_454
+  - first:
+      213: 2473478905653257081
+    second: Level Select 2_455
+  - first:
+      213: 1463133217585595866
+    second: Level Select 2_456
+  - first:
+      213: -71360600203615722
+    second: Level Select 2_457
+  - first:
+      213: -5048245860375733069
+    second: Level Select 2_458
+  - first:
+      213: -6182186863253801969
+    second: Level Select 2_459
+  - first:
+      213: 3463060774390547142
+    second: Level Select 2_460
+  - first:
+      213: 3534582380978918151
+    second: Level Select 2_461
+  - first:
+      213: -4668259632135524565
+    second: Level Select 2_462
+  - first:
+      213: 4388844272638603757
+    second: Level Select 2_463
+  - first:
+      213: -6827817223952858536
+    second: Level Select 2_464
+  - first:
+      213: -2888204322727456993
+    second: Level Select 2_465
+  - first:
+      213: -924217131886658604
+    second: Level Select 2_466
+  - first:
+      213: -3582038744193943967
+    second: Level Select 2_467
+  - first:
+      213: 1426682590198637435
+    second: Level Select 2_468
+  - first:
+      213: -4257578532144972515
+    second: Level Select 2_469
+  - first:
+      213: -6711376084899527672
+    second: Level Select 2_470
+  - first:
+      213: -2481069803843707314
+    second: Level Select 2_471
+  - first:
+      213: 1758299285322294826
+    second: Level Select 2_472
+  - first:
+      213: -4139090737537337668
+    second: Level Select 2_473
+  - first:
+      213: 5046167718114917880
+    second: Level Select 2_474
+  - first:
+      213: -3586910295719430834
+    second: Level Select 2_475
+  - first:
+      213: 6173994890413023295
+    second: Level Select 2_476
+  - first:
+      213: 4899981060491109482
+    second: Level Select 2_477
+  - first:
+      213: -1567374211712887290
+    second: Level Select 2_478
+  - first:
+      213: -1929837725161399738
+    second: Level Select 2_479
+  - first:
+      213: -2498390682893249625
+    second: Level Select 2_480
+  - first:
+      213: -6955083818323860261
+    second: Level Select 2_481
+  - first:
+      213: 7596770972108342591
+    second: Level Select 2_482
+  - first:
+      213: -2333729292775635855
+    second: Level Select 2_483
+  - first:
+      213: -6306945839832304227
+    second: Level Select 2_484
+  - first:
+      213: 4964583156445906756
+    second: Level Select 2_485
+  - first:
+      213: 8811530974179271230
+    second: Level Select 2_486
+  - first:
+      213: 5649129690820297876
+    second: Level Select 2_487
+  - first:
+      213: -4357840217966357784
+    second: Level Select 2_488
+  - first:
+      213: 4644648719936508424
+    second: Level Select 2_489
+  - first:
+      213: 2047187823364564240
+    second: Level Select 2_490
+  - first:
+      213: -8309974012556511250
+    second: Level Select 2_491
+  - first:
+      213: 8715708672883792739
+    second: Level Select 2_492
+  - first:
+      213: -4053488658656142844
+    second: Level Select 2_493
+  - first:
+      213: -1354015178383052499
+    second: Level Select 2_494
+  - first:
+      213: 4030861566896657574
+    second: Level Select 2_495
+  - first:
+      213: -786289993298315458
+    second: Level Select 2_496
+  - first:
+      213: 8320011575833622163
+    second: Level Select 2_497
+  - first:
+      213: -6242521122966601374
+    second: Level Select 2_498
+  - first:
+      213: 155355978242091439
+    second: Level Select 2_499
+  - first:
+      213: -4838520709138893053
+    second: Level Select 2_500
+  - first:
+      213: 1643824657499936731
+    second: Level Select 2_501
+  - first:
+      213: 2791089850200025020
+    second: Level Select 2_502
+  - first:
+      213: -7437543998444565447
+    second: Level Select 2_503
+  - first:
+      213: 8389921392121538608
+    second: Level Select 2_504
+  - first:
+      213: -6103535775544487577
+    second: Level Select 2_505
+  - first:
+      213: 1661568835134809575
+    second: Level Select 2_506
+  - first:
+      213: 9004892661732231160
+    second: Level Select 2_507
+  - first:
+      213: 7059629632644545196
+    second: Level Select 2_508
+  - first:
+      213: 8894265496530347454
+    second: Level Select 2_509
+  - first:
+      213: -3527813973222409824
+    second: Level Select 2_510
+  - first:
+      213: 1375093895792698098
+    second: Level Select 2_511
+  - first:
+      213: 7279066696178271815
+    second: Level Select 2_512
+  - first:
+      213: -6910926207993573336
+    second: Level Select 2_513
+  - first:
+      213: 702974004537475524
+    second: Level Select 2_514
+  - first:
+      213: 2138473521512438033
+    second: Level Select 2_515
+  - first:
+      213: 3162717336382022641
+    second: Level Select 2_516
+  - first:
+      213: 2135782900751077663
+    second: Level Select 2_517
+  - first:
+      213: -1562441804092448841
+    second: Level Select 2_518
+  - first:
+      213: 3125115213249046894
+    second: Level Select 2_519
+  - first:
+      213: 2071595132655724280
+    second: Level Select 2_520
+  - first:
+      213: 1389052953254955490
+    second: Level Select 2_521
+  - first:
+      213: 2741447376062346854
+    second: Level Select 2_522
+  - first:
+      213: 3976788640257224899
+    second: Level Select 2_523
+  - first:
+      213: -5487873461448933317
+    second: Level Select 2_524
+  - first:
+      213: 8375770241846585583
+    second: Level Select 2_525
+  - first:
+      213: 3417426282051906774
+    second: Level Select 2_526
+  - first:
+      213: 1434920929759105650
+    second: Level Select 2_527
+  - first:
+      213: -2756158848966398946
+    second: Level Select 2_528
+  - first:
+      213: -5047129937124549441
+    second: Level Select 2_529
+  - first:
+      213: -2940385103928062856
+    second: Level Select 2_530
+  - first:
+      213: -7784800091286369879
+    second: Level Select 2_531
+  - first:
+      213: -9132523875867802607
+    second: Level Select 2_532
+  - first:
+      213: -4601253185975440168
+    second: Level Select 2_533
+  - first:
+      213: -7763523888430170622
+    second: Level Select 2_534
+  - first:
+      213: -4203511357581171708
+    second: Level Select 2_535
+  - first:
+      213: 7918410226242458629
+    second: Level Select 2_536
+  - first:
+      213: -6310440513947418677
+    second: Level Select 2_537
+  - first:
+      213: 350207456684754780
+    second: Level Select 2_538
+  - first:
+      213: -6910404511018657718
+    second: Level Select 2_539
+  - first:
+      213: 6229527050531975157
+    second: Level Select 2_540
+  - first:
+      213: 4744099784060855126
+    second: Level Select 2_541
+  - first:
+      213: -5621480325260225975
+    second: Level Select 2_542
+  - first:
+      213: 1293054864219236265
+    second: Level Select 2_543
+  - first:
+      213: 1926580535555762852
+    second: Level Select 2_544
+  - first:
+      213: -3892042002768838532
+    second: Level Select 2_545
+  - first:
+      213: -7319733299719356419
+    second: Level Select 2_546
+  - first:
+      213: 6841116441305537336
+    second: Level Select 2_547
+  - first:
+      213: 9189735891138761872
+    second: Level Select 2_548
+  - first:
+      213: -6729226865141813223
+    second: Level Select 2_549
+  - first:
+      213: 979151351097365790
+    second: Level Select 2_550
+  - first:
+      213: 300429430053605957
+    second: Level Select 2_551
+  - first:
+      213: 7935060044214469953
+    second: Level Select 2_552
+  - first:
+      213: 4139242730394105656
+    second: Level Select 2_553
+  - first:
+      213: -1201494715246699403
+    second: Level Select 2_554
+  - first:
+      213: 2690614584626756739
+    second: Level Select 2_555
+  - first:
+      213: 7449956588197789812
+    second: Level Select 2_556
+  - first:
+      213: 7452893202252334795
+    second: Level Select 2_557
+  - first:
+      213: -4363954848380402155
+    second: Level Select 2_558
+  - first:
+      213: 6661765180837841424
+    second: Level Select 2_559
+  - first:
+      213: -6444458416764437673
+    second: Level Select 2_560
+  - first:
+      213: 397182954284214443
+    second: Level Select 2_561
+  - first:
+      213: 4295666487581339465
+    second: Level Select 2_562
+  - first:
+      213: -4126671533675784539
+    second: Level Select 2_563
+  - first:
+      213: 2488978638751655760
+    second: Level Select 2_564
+  - first:
+      213: -2020558296308078537
+    second: Level Select 2_565
+  - first:
+      213: -2701871150204409595
+    second: Level Select 2_566
+  - first:
+      213: -4891578483581453150
+    second: Level Select 2_567
+  - first:
+      213: -9203835608288567563
+    second: Level Select 2_568
+  - first:
+      213: 621664783977945659
+    second: Level Select 2_569
+  - first:
+      213: -5636340508520267595
+    second: Level Select 2_570
+  - first:
+      213: 7976265713526010537
+    second: Level Select 2_571
+  - first:
+      213: -4467686702793337672
+    second: Level Select 2_572
+  - first:
+      213: -5417734573331289826
+    second: Level Select 2_573
+  - first:
+      213: -951140513410918399
+    second: Level Select 2_574
+  - first:
+      213: -428705789338568052
+    second: Level Select 2_575
+  - first:
+      213: -8182524896384202755
+    second: Level Select 2_576
+  - first:
+      213: 2548894968253305851
+    second: Level Select 2_577
+  - first:
+      213: -4420446919379402903
+    second: Level Select 2_578
+  - first:
+      213: -3098289245411239910
+    second: Level Select 2_579
+  - first:
+      213: -3648571755002044477
+    second: Level Select 2_580
+  - first:
+      213: 1360317189597824259
+    second: Level Select 2_581
+  - first:
+      213: 8770756717104284951
+    second: Level Select 2_582
+  - first:
+      213: -6016970552067778230
+    second: Level Select 2_583
+  - first:
+      213: 9197336261192924140
+    second: Level Select 2_584
+  - first:
+      213: -4923598239418965857
+    second: Level Select 2_585
+  - first:
+      213: -5834074402278990117
+    second: Level Select 2_586
+  - first:
+      213: -3856702079776841516
+    second: Level Select 2_587
+  - first:
+      213: -3207963042707961651
+    second: Level Select 2_588
+  - first:
+      213: -1112177809304160479
+    second: Level Select 2_589
+  - first:
+      213: -2717421662907655531
+    second: Level Select 2_590
+  - first:
+      213: 4326323532117823987
+    second: Level Select 2_591
+  - first:
+      213: -3152109838931101695
+    second: Level Select 2_592
+  - first:
+      213: -3511185464171798268
+    second: Level Select 2_593
+  - first:
+      213: 2300302453932412021
+    second: Level Select 2_594
+  - first:
+      213: -2834761655171052253
+    second: Level Select 2_595
+  - first:
+      213: 639612833848513711
+    second: Level Select 2_596
+  - first:
+      213: -7401688791255213966
+    second: Level Select 2_597
+  - first:
+      213: -2821611846406576178
+    second: Level Select 2_598
+  - first:
+      213: -1866478158001439714
+    second: Level Select 2_599
+  - first:
+      213: 2514547578842143648
+    second: Level Select 2_600
+  - first:
+      213: 5378385839373792767
+    second: Level Select 2_601
+  - first:
+      213: 5027476934312444406
+    second: Level Select 2_602
+  - first:
+      213: -1994603873816686682
+    second: Level Select 2_603
+  - first:
+      213: -7636728326081263729
+    second: Level Select 2_604
+  - first:
+      213: 5840021921160254081
+    second: Level Select 2_605
+  - first:
+      213: -1038127627407989075
+    second: Level Select 2_606
+  - first:
+      213: 3377968934750984749
+    second: Level Select 2_607
+  - first:
+      213: -4239819106490867910
+    second: Level Select 2_608
+  - first:
+      213: -6564175522601927159
+    second: Level Select 2_609
+  - first:
+      213: 8706978670738900579
+    second: Level Select 2_610
+  - first:
+      213: -3848708183804011460
+    second: Level Select 2_611
+  - first:
+      213: 8757030869300974634
+    second: Level Select 2_612
+  - first:
+      213: 8630567861482706357
+    second: Level Select 2_613
+  - first:
+      213: 1671282180286289834
+    second: Level Select 2_614
+  - first:
+      213: 590752509675367316
+    second: Level Select 2_615
+  - first:
+      213: -4894773373034252377
+    second: Level Select 2_616
+  - first:
+      213: -8753456236600896632
+    second: Level Select 2_617
+  - first:
+      213: -1807327423732180308
+    second: Level Select 2_618
+  - first:
+      213: 8560409770848657942
+    second: Level Select 2_619
+  - first:
+      213: -7183841344925204222
+    second: Level Select 2_620
+  - first:
+      213: -4520559416035730992
+    second: Level Select 2_621
+  - first:
+      213: -2326839109452951849
+    second: Level Select 2_622
+  - first:
+      213: 3353275624811036170
+    second: Level Select 2_623
+  - first:
+      213: 6946550417035415135
+    second: Level Select 2_624
+  - first:
+      213: 6863361579356872775
+    second: Level Select 2_625
+  - first:
+      213: 8697822530611297403
+    second: Level Select 2_626
+  - first:
+      213: -1583676903145438453
+    second: Level Select 2_627
+  - first:
+      213: 473846684669085996
+    second: Level Select 2_628
+  - first:
+      213: 1800824696837541806
+    second: Level Select 2_629
+  - first:
+      213: -5050627580144208574
+    second: Level Select 2_630
+  - first:
+      213: -8348738287429278089
+    second: Level Select 2_631
+  - first:
+      213: -895666749119602132
+    second: Level Select 2_632
+  - first:
+      213: -1003948566257338977
+    second: Level Select 2_633
+  - first:
+      213: 4274483492110805499
+    second: Level Select 2_634
+  - first:
+      213: 4083001911084847737
+    second: Level Select 2_635
+  - first:
+      213: 8237360195858006529
+    second: Level Select 2_636
+  - first:
+      213: 1470862022572614981
+    second: Level Select 2_637
+  - first:
+      213: -2313127498264098225
+    second: Level Select 2_638
+  - first:
+      213: -268811392450259653
+    second: Level Select 2_639
+  - first:
+      213: -8446068880880645591
+    second: Level Select 2_640
+  - first:
+      213: 143427886347818426
+    second: Level Select 2_641
+  - first:
+      213: 7918107298400202183
+    second: Level Select 2_642
+  - first:
+      213: 7756852992994290512
+    second: Level Select 2_643
+  - first:
+      213: 822888316958282873
+    second: Level Select 2_644
+  - first:
+      213: -150607516350741600
+    second: Level Select 2_645
+  - first:
+      213: -2888619153949878272
+    second: Level Select 2_646
+  - first:
+      213: -4929475025345601516
+    second: Level Select 2_647
+  - first:
+      213: 8985070223955716718
+    second: Level Select 2_648
+  - first:
+      213: -6587351277244263227
+    second: Level Select 2_649
+  - first:
+      213: -1026850442855293897
+    second: Level Select 2_650
+  - first:
+      213: -4807806990856060245
+    second: Level Select 2_651
+  - first:
+      213: -6158377877300171322
+    second: Level Select 2_652
+  - first:
+      213: -7018144046602573090
+    second: Level Select 2_653
+  - first:
+      213: -5097774168014893092
+    second: Level Select 2_654
+  - first:
+      213: -1362889481427548084
+    second: Level Select 2_655
+  - first:
+      213: 2481652339403685728
+    second: Level Select 2_656
+  - first:
+      213: 5728579988125150084
+    second: Level Select 2_657
+  - first:
+      213: 6317399504975049812
+    second: Level Select 2_658
+  - first:
+      213: -7776825591409519903
+    second: Level Select 2_659
+  - first:
+      213: 6638877834929943979
+    second: Level Select 2_660
+  - first:
+      213: -7433613970953154337
+    second: Level Select 2_661
+  - first:
+      213: -7046188862766040732
+    second: Level Select 2_662
+  - first:
+      213: -2130936494438723209
+    second: Level Select 2_663
+  - first:
+      213: 726274021877152043
+    second: Level Select 2_664
+  - first:
+      213: -34734128556867659
+    second: Level Select 2_665
+  - first:
+      213: 1286393841818357881
+    second: Level Select 2_666
+  - first:
+      213: -1486850714456114895
+    second: Level Select 2_667
+  - first:
+      213: -6036494473170786030
+    second: Level Select 2_668
+  - first:
+      213: 4830589315470390943
+    second: Level Select 2_669
+  - first:
+      213: -2345149135784963879
+    second: Level Select 2_670
+  - first:
+      213: -6028596091618287091
+    second: Level Select 2_671
+  - first:
+      213: -8982835926090561560
+    second: Level Select 2_672
+  - first:
+      213: 4643765576579279476
+    second: Level Select 2_673
+  - first:
+      213: 5662914868838954519
+    second: Level Select 2_674
+  - first:
+      213: -1532856106092502903
+    second: Level Select 2_675
+  - first:
+      213: 4679260656450933946
+    second: Level Select 2_676
+  - first:
+      213: -2707823122785762824
+    second: Level Select 2_677
+  - first:
+      213: 1853935572633804978
+    second: Level Select 2_678
+  - first:
+      213: -1341911833444524479
+    second: Level Select 2_679
+  - first:
+      213: -73582784056432154
+    second: Level Select 2_680
+  - first:
+      213: 1980613582863858628
+    second: Level Select 2_681
+  - first:
+      213: 6693732488771916691
+    second: Level Select 2_682
+  - first:
+      213: 8479997137117481154
+    second: Level Select 2_683
+  - first:
+      213: -2058644887760615087
+    second: Level Select 2_684
+  - first:
+      213: -4485973780141278624
+    second: Level Select 2_685
+  - first:
+      213: -4184673422828111418
+    second: Level Select 2_686
+  - first:
+      213: -8385632875686127866
+    second: Level Select 2_687
+  - first:
+      213: 6281781352893324069
+    second: Level Select 2_688
+  - first:
+      213: 6537289617103919543
+    second: Level Select 2_689
+  - first:
+      213: 91069385060333029
+    second: Level Select 2_690
+  - first:
+      213: 1409027833462104006
+    second: Level Select 2_691
+  - first:
+      213: 5823001173948709554
+    second: Level Select 2_692
+  - first:
+      213: 8032121984706195237
+    second: Level Select 2_693
+  - first:
+      213: -1778857339280624874
+    second: Level Select 2_694
+  - first:
+      213: 5153839419067463751
+    second: Level Select 2_695
+  - first:
+      213: 2755154739559263756
+    second: Level Select 2_696
+  - first:
+      213: 8891918519996740974
+    second: Level Select 2_697
+  - first:
+      213: 1754377909945076766
+    second: Level Select 2_698
+  - first:
+      213: 1523167648344817685
+    second: Level Select 2_699
+  - first:
+      213: -3371286424986169725
+    second: Level Select 2_700
+  - first:
+      213: 7838810435343743965
+    second: Level Select 2_701
+  - first:
+      213: 8119710619144636185
+    second: Level Select 2_702
+  - first:
+      213: -8634251043192535143
+    second: Level Select 2_703
+  - first:
+      213: -2848157159565640965
+    second: Level Select 2_704
+  - first:
+      213: -2154118617583257734
+    second: Level Select 2_705
+  - first:
+      213: -2484413797786898952
+    second: Level Select 2_706
+  - first:
+      213: 2822393153167366253
+    second: Level Select 2_707
+  - first:
+      213: -2836810541297546396
+    second: Level Select 2_708
+  - first:
+      213: 8322512129548819419
+    second: Level Select 2_709
+  - first:
+      213: 905014514450706993
+    second: Level Select 2_710
+  - first:
+      213: -2576437654103673640
+    second: Level Select 2_711
+  - first:
+      213: -7017168584102783312
+    second: Level Select 2_712
+  - first:
+      213: 2067710263402100422
+    second: Level Select 2_713
+  - first:
+      213: -1701905803042576845
+    second: Level Select 2_714
+  - first:
+      213: -4320182309532087192
+    second: Level Select 2_715
+  - first:
+      213: 3950614221191588972
+    second: Level Select 2_716
+  - first:
+      213: 5145116408771669350
+    second: Level Select 2_717
+  - first:
+      213: -7773907377243585042
+    second: Level Select 2_718
+  - first:
+      213: -8710939518703017772
+    second: Level Select 2_719
+  - first:
+      213: -7537783481029126711
+    second: Level Select 2_720
+  - first:
+      213: 1142086061318282140
+    second: Level Select 2_721
+  - first:
+      213: -3021820707168687510
+    second: Level Select 2_722
+  - first:
+      213: -5107786011707160677
+    second: Level Select 2_723
+  - first:
+      213: 2944936685309905611
+    second: Level Select 2_724
+  - first:
+      213: -1004584822541312169
+    second: Level Select 2_725
+  - first:
+      213: -5034754475517339625
+    second: Level Select 2_726
+  - first:
+      213: 3607642412456726675
+    second: Level Select 2_727
+  - first:
+      213: -1627297116757007302
+    second: Level Select 2_728
+  - first:
+      213: 3089133610090296274
+    second: Level Select 2_729
+  - first:
+      213: -5439049500206128107
+    second: Level Select 2_730
+  - first:
+      213: -6863893331801014460
+    second: Level Select 2_731
+  - first:
+      213: -4341893204352582598
+    second: Level Select 2_732
+  - first:
+      213: 825817177129469585
+    second: Level Select 2_733
+  - first:
+      213: 4654401652070356998
+    second: Level Select 2_734
+  - first:
+      213: -4859724409213151906
+    second: Level Select 2_735
+  - first:
+      213: 2880848099920225759
+    second: Level Select 2_736
+  - first:
+      213: -5969713269477657316
+    second: Level Select 2_737
+  - first:
+      213: -989046961914913124
+    second: Level Select 2_738
+  - first:
+      213: 2410331357199801251
+    second: Level Select 2_739
+  - first:
+      213: -3361031594375857625
+    second: Level Select 2_740
+  - first:
+      213: 1536405656471713767
+    second: Level Select 2_741
+  - first:
+      213: 8905017796035484974
+    second: Level Select 2_742
+  - first:
+      213: -4529876022670901301
+    second: Level Select 2_743
+  - first:
+      213: 3760822288812535855
+    second: Level Select 2_744
+  - first:
+      213: 8953607492510159522
+    second: Level Select 2_745
+  - first:
+      213: 2904863860128780379
+    second: Level Select 2_746
+  - first:
+      213: 1616973843291412349
+    second: Level Select 2_747
+  - first:
+      213: -2693894712299041063
+    second: Level Select 2_748
+  - first:
+      213: 4601719420472566030
+    second: Level Select 2_749
+  - first:
+      213: -9078860263978776946
+    second: Level Select 2_750
+  - first:
+      213: -1903474662039224415
+    second: Level Select 2_751
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level Select 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9c1405a6390020800000000000000
+      internalID: 2308436366370577431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918c6a3383f14e610800000000000000
+      internalID: 1649477689769642009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43deadc7f82e680800000000000000
+      internalID: -8727255361478904580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b3c1bc5cbe144d0800000000000000
+      internalID: -3151979029433926877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76dd035f604d63b0800000000000000
+      internalID: -5517683121580026246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de9040c5510c0450800000000000000
+      internalID: 6056217066715782871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777ff8ca8ce9fecf0800000000000000
+      internalID: -220783271992101001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e10eaf4b9a88d50800000000000000
+      internalID: 6739823437128146475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113d254f6bb74f600800000000000000
+      internalID: 501161484258300689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d1f9224221cfd0800000000000000
+      internalID: -2323538265179563817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa573fbebb0d00b0800000000000000
+      internalID: -5760935434457228555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7bcb4bb97ca05e0800000000000000
+      internalID: -1942520817690822668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b39fa8f50138e70800000000000000
+      internalID: 9116148073267542892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f83ff4686933560800000000000000
+      internalID: 7292337725254111021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74720596ab76fd10800000000000000
+      internalID: 2159049026765485183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c067dd5a4fcbe4e0800000000000000
+      internalID: -1951238095226052412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52735f2b683caa420800000000000000
+      internalID: 2642139114701666085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9122be78d4cbf8630800000000000000
+      internalID: 3931568040896569881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296f03465446ce630800000000000000
+      internalID: 3957648421748274834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592da8d2885ba470800000000000000
+      internalID: 8406910448421382489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bb67d75242b86a0800000000000000
+      internalID: -6446018698213409927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e37617c533c6cff0800000000000000
+      internalID: -16110912908397591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4737aba105dde90800000000000000
+      internalID: -6999350170136382236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997140224b11a380800000000000000
+      internalID: -8961851812667623011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b7e6c2483b7ed20800000000000000
+      internalID: 3307809831589411721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af535e4c7c2fe0d0800000000000000
+      internalID: -3391443081985040477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103e1599d64b51960800000000000000
+      internalID: 7572156731310072577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e7b2734e1022d0800000000000000
+      internalID: -3305608851453646409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdeb59cdc50a5e30800000000000000
+      internalID: 4492909959660170748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aee4894a77335990800000000000000
+      internalID: -7398508764480606551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5b804e102b4e100800000000000000
+      internalID: 136429609918445029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa3de99f9115400800000000000000
+      internalID: 311058409167499031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b96d2619533a5a0800000000000000
+      internalID: -6511301737702843502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491a62c02fa8e030800000000000000
+      internalID: 3524259263652960586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74f942bf7065fb90800000000000000
+      internalID: -7208749526968306562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0756c35e0d36a1f0800000000000000
+      internalID: -1034071932690606321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500a747f38c420a60800000000000000
+      internalID: 7638752047646875653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130efcd7cf0dddfe0800000000000000
+      internalID: -1162543345930608591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51528c1cc8ee67600800000000000000
+      internalID: 465821899793376533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c202522275a0ab30800000000000000
+      internalID: 4296615954132107968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f937737d4e24c0800000000000000
+      internalID: -4310422635030121250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8739598023c6b00800000000000000
+      internalID: 823087844352555196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33700d7889559fc20800000000000000
+      internalID: 3240715520471729971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9b03bc557a1c50800000000000000
+      internalID: 6636746041885171542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66a4040b561c0f10800000000000000
+      internalID: 2237187695061542511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ed9d1f838fea30800000000000000
+      internalID: 4246757624334116804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5824dfb2a9ce29990800000000000000
+      internalID: -7380576692399684987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2301f67ddd15f50800000000000000
+      internalID: 6868514824067756771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830712df3aa5e44c0800000000000000
+      internalID: -4301400933719248840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311f618d2e39ab3c0800000000000000
+      internalID: -4342996288148147949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5a30f46213e260800000000000000
+      internalID: 7125559260166642455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72057f5ae34af5950800000000000000
+      internalID: 6440046581142474791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61cbe98f1f66cb50800000000000000
+      internalID: 6613095284088750445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_53
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ef9418f2f728920800000000000000
+      internalID: 2991092944536731165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f700d8544b6da90800000000000000
+      internalID: -7289440736041205996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_55
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c42969eca98e4d0800000000000000
+      internalID: -3105061730991846345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f81ec61661ef680800000000000000
+      internalID: -8719507220848341218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5cb51323a1704e0800000000000000
+      internalID: -2015613505346222652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46db16819fff7c280800000000000000
+      internalID: -9022961883092501148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f6b65fca5ddfdf0800000000000000
+      internalID: -144724674177437874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ed2541e5d87fd0800000000000000
+      internalID: -2343888442541350560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59333d954f426ae50800000000000000
+      internalID: 6820179317596828565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b9507e2a075670800000000000000
+      internalID: 8527295614019022970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b701bbed9fb67010800000000000000
+      internalID: 1186346236843722675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08058860d2a8d3c80800000000000000
+      internalID: -8341359008832532352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4970ddf35c94f30800000000000000
+      internalID: 4560392975771210999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e6a7face7d68e90800000000000000
+      internalID: -7023689157281419752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_67
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402465e89dc383230800000000000000
+      internalID: 3618709205685780996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37127f40fcdc0eea0800000000000000
+      internalID: -5845446027301674637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_69
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8c63ce074f40a20800000000000000
+      internalID: 3027813615336343717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea30a27bf13459d0800000000000000
+      internalID: -2786547313405838617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6815348e7d3a8e0800000000000000
+      internalID: -1683264443144632625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a418be2d9eadd4060800000000000000
+      internalID: 6939443298648686922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9921403e637bf0580800000000000000
+      internalID: -8858660495649664359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492f2e5f184a17750800000000000000
+      internalID: 6300998231751062164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5395d121cf16ac260800000000000000
+      internalID: 7118609896276056373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860796449c8e7c650800000000000000
+      internalID: 6253222558761054312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f337aa79f8fcd30800000000000000
+      internalID: 4453936438055223151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f225527e27f5ff0800000000000000
+      internalID: -45191134161260710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169d650866491d380800000000000000
+      internalID: -8948207816647714463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ec4ee0d833c59f0800000000000000
+      internalID: -478450779474833820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_81
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fdccc91675bfe00800000000000000
+      internalID: 1079552612439482242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_82
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e154e49c6929a13d0800000000000000
+      internalID: -3235112205992180450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_83
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd79c4fd2bbb340800000000000000
+      internalID: 4880691293318536451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f684e67b592378bc0800000000000000
+      internalID: -3780997743545268113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fda026c5cd644040800000000000000
+      internalID: 4630947013043727857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4570644c510c680800000000000000
+      internalID: -8736959344366103370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba07d79b4a366c00800000000000000
+      internalID: 893465672424032952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deecff9fe175a9ba0800000000000000
+      internalID: -6081452556255506707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a48afa846ba52330800000000000000
+      internalID: 3685540318389372066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a2b70b1685e8b40800000000000000
+      internalID: 5444386176133442195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016819cb11718b6a0800000000000000
+      internalID: -6433366702753217008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a8968e1ddcb0e0800000000000000
+      internalID: -2252682590415183034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_93
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5db38960cd268760800000000000000
+      internalID: 7459700137213017437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_94
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c8c34bad7a015f0800000000000000
+      internalID: -787945377021260773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_95
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b6fd89be895ed10800000000000000
+      internalID: 2154296134416165751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85d251080c19290800000000000000
+      internalID: -7885309816205387596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff9bd95499b2d6d0800000000000000
+      internalID: -2967105157669871618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9465c1d1b616df4b0800000000000000
+      internalID: -5405056865096935863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda2207635c7cc70800000000000000
+      internalID: 8991372018668711408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e398bf63ea2639f0800000000000000
+      internalID: -489156353202809879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58574e0716df96670800000000000000
+      internalID: 8532629563977790853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fa1440b2f5a2d60800000000000000
+      internalID: 7866204337515638628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465fa48104b0e270800000000000000
+      internalID: 8277814033721022023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_104
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be355fc9baff1ca60800000000000000
+      internalID: 7692710751063331819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5a11d3bcd6a2dd0800000000000000
+      internalID: -2510073122635274778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_106
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88c3efd509e2d990800000000000000
+      internalID: -7362566229356984182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fb6195502665e50800000000000000
+      internalID: 6797728462671363856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_108
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de07449867651cb0800000000000000
+      internalID: -4893891721206231342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_109
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf095af80bd1ca0800000000000000
+      internalID: -6044480993856783677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef6834a5808ac580800000000000000
+      internalID: -8806084809895415836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb47007752b7f1190800000000000000
+      internalID: -7989531813091445569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2645febe26bb1efe0800000000000000
+      internalID: -1161441195345357726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28afee0fed8100010800000000000000
+      internalID: 1152948850410846850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9916b37e4c57820800000000000000
+      internalID: 2915452831205005733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_115
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9d940fb431e81b0800000000000000
+      internalID: -5652559265428547091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42eca3e3b0d0dd10800000000000000
+      internalID: 2148446493293208141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676cf0bbd41cdb7d0800000000000000
+      internalID: -2900950045361715594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888af0cad4483bb00800000000000000
+      internalID: 843163024382470280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_119
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c6594e8674a6150800000000000000
+      internalID: 5866579980440661019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_120
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96bb343a8175660800000000000000
+      internalID: 7374390004337568184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_121
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a475361d0112c9440800000000000000
+      internalID: 4943862847062103882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_122
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827cd35818363770800000000000000
+      internalID: 8590115016393126538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfce8f2116f1fba0800000000000000
+      internalID: -6056789470163841091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13d356461578ec0800000000000000
+      internalID: -3564791088403369473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b35fc51d6a64ae0800000000000000
+      internalID: -1565380402326717645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f172a919eb6d0b0800000000000000
+      internalID: -5704162345452363960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8849f05645ff870800000000000000
+      internalID: 8718780196642392302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_128
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bae0982266ad010800000000000000
+      internalID: 1214395348044131174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe3fa7f5ed18930800000000000000
+      internalID: 4143837633823633292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_130
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e13959ca505e1e0800000000000000
+      internalID: -2169321406707065323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_131
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511bab17e54fd6b40800000000000000
+      internalID: 5435269011778220309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_132
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6ae75c8c0bf0f00800000000000000
+      internalID: 1085280411572938415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b48c2606216bf20800000000000000
+      internalID: 3437955570727406488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_134
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c837b6efdab20060800000000000000
+      internalID: 6918297448405743814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_135
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ab8cce29cf392e0800000000000000
+      internalID: -2120073291593368966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b79fe7582421670800000000000000
+      internalID: 8507935787184651142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c992eb3692c29b540800000000000000
+      internalID: 5024095415587187100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d414d2225d27aafe0800000000000000
+      internalID: -1177002092876971699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_139
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78e6b498fb6e8490800000000000000
+      internalID: -7742131994012227457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_140
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f2840d21d60ae0800000000000000
+      internalID: -1583348227694726820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee5950659438070800000000000000
+      internalID: 8107404388006751864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e752d1c04019ccda0800000000000000
+      internalID: -5923199963329911426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_143
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f2a5436192e860800000000000000
+      internalID: 7557762980237210869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_144
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36457799512d91500800000000000000
+      internalID: 367555834818286691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_145
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35c9c13b925427a0800000000000000
+      internalID: -6402901943705287362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_146
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f200131adee2b63f0800000000000000
+      internalID: -906579301838553041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_147
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe301e872a3fbae0800000000000000
+      internalID: -1531441406721114435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_148
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71fdabe2cf719890800000000000000
+      internalID: -7453035433167031939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31974d93c3b88f690800000000000000
+      internalID: -7568146083011593965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_150
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cbbfb8dd7107ec0800000000000000
+      internalID: -3571328264201061250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d26ead6b700ca120800000000000000
+      internalID: 2426314829366977233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_152
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc583c9ac9185c300800000000000000
+      internalID: 271765862388827597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_153
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5dedfc20445470800000000000000
+      internalID: 8382395368426265241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d52c2f54f927e9c0800000000000000
+      internalID: -3898100822920387116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_155
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d906b68c6a6f73f0800000000000000
+      internalID: -900884386101720620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_156
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76401440305f2c100800000000000000
+      internalID: 126933132824872039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_157
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa93090426c52310800000000000000
+      internalID: 1379726718931278587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_158
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f2144240c4b1990800000000000000
+      internalID: -7414248780863557856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_159
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2580dbfbd55f5370800000000000000
+      internalID: 8313457840460170539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_160
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef321f3a9ee85c00800000000000000
+      internalID: 889723272656207845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_161
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7b8993c9e14f3e0800000000000000
+      internalID: -2020956676452468739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b0a46dd44c3890800000000000000
+      internalID: -7477025563675150666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_163
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8009365483a58a0800000000000000
+      internalID: -6315673656759416655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41d2317101b0ba10800000000000000
+      internalID: 1923231660639441231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e70ae4b8893a60800000000000000
+      internalID: 7654299352294745147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_166
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e02cfc2e4a4c1510800000000000000
+      internalID: 1521172473767010530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_167
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221820c5cc5b93100800000000000000
+      internalID: 88301557032059170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd58a1dafc573b40800000000000000
+      internalID: 5419902908892732867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_169
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14127dc4cc765c5d0800000000000000
+      internalID: -3042911846058745535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_170
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfee86500e5271a0800000000000000
+      internalID: -6813279930712920140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_171
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95223517c77123010800000000000000
+      internalID: 1167021076687037017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_172
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7a2c195b528e720800000000000000
+      internalID: 2875589823840823208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_173
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae1ac2b926f7e60800000000000000
+      internalID: 7962191084822587919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_174
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856802b6836b9d9d0800000000000000
+      internalID: -2748965744101259688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc64ee430c88520800000000000000
+      internalID: 2704622909804433388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0b713543da90e0800000000000000
+      internalID: -2262263568663901650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93e87ce8ce26060800000000000000
+      internalID: 6945373673336224222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_178
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37917ec5d77cd8f20800000000000000
+      internalID: 3426614232742304115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_179
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5c782343f91e860800000000000000
+      internalID: 7557496696239277517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f91cbc883615c20800000000000000
+      internalID: 3193443049967558525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_181
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c08adb65820fff00800000000000000
+      internalID: 1152642801693524163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_182
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa305356cc58f20b0800000000000000
+      internalID: -5751231086211038294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_183
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbedca00c44830070800000000000000
+      internalID: 8071440419141770943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_184
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c700e62dd36519de0800000000000000
+      internalID: -1328185591574167428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_185
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fef929d15cb05000800000000000000
+      internalID: 22725057858633465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_186
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d839ee455a241fd0800000000000000
+      internalID: -2372224557832914728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Select 2_187
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110248c1542134d70800000000000000
+      internalID: 9026078166221070353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
