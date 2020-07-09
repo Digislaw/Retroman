@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class AudioController : Singleton<AudioController>
 {
@@ -17,13 +18,14 @@ public class AudioController : Singleton<AudioController>
     [SerializeField] [Range(-3f, 3f)]
     private float maxPitch = 1.1f;
 
+    public AudioClip currentMusic { get { return musicSource.clip; } }
+
     protected override void Awake()
     {
         base.Awake();
         DontDestroyOnLoad(gameObject);  // musi istniec przez cala gre, niezaleznie od sceny
 
-        musicSource.clip = musicClip;
-        musicSource.Play();
+        PlayMusic(musicClip);
     }
 
     private void Reset()
@@ -55,5 +57,22 @@ public class AudioController : Singleton<AudioController>
             musicSource.Pause();
         else
             musicSource.UnPause();
+    }
+
+    public void PlayMusic(AudioClip clip)
+    {
+        musicSource.clip = clip;
+        musicSource.Play();
+    }
+
+    public void PlayMusicWithDelay(AudioClip clip, float time)
+    {
+        StartCoroutine(MusicWithDelayCo(clip, time));
+    }
+
+    private IEnumerator MusicWithDelayCo(AudioClip clip, float time)
+    {
+        yield return new WaitForSeconds(time);
+        PlayMusic(clip);
     }
 }

@@ -17,7 +17,14 @@ public class Avatar : MonoBehaviour
         {
             Move(); // gracz jest wciaz zbyt daleko, kontynuuj ruch
             return;
-        }           
+        }
+
+        // teleportacja do poziomu
+        if(Input.GetButtonDown("Submit") && current.IsLevelPoint)
+        {
+            SceneController.Instance.ChangeLevel(current.LevelName);
+            return;
+        }
 
         // wybor celu - nastepnego punktu, kolejnosc sprawdzania wedlug ruchu wskazowek zegara
         if (Input.GetAxisRaw("Vertical") > 0 && current.Up != null)

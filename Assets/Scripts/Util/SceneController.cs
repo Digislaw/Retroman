@@ -1,15 +1,22 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneController : MonoBehaviour
+public class SceneController : Singleton<SceneController>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private AudioClip levelSelectedSound;
+
+    private void Start()
     {
         DontDestroyOnLoad(gameObject);
         //StartCoroutine(Test());
+    }
+
+    public void ChangeLevel(string levelName)
+    {
+        AudioController.Instance.PlayStrict(levelSelectedSound);
+        SceneManager.LoadSceneAsync(levelName);
     }
 
     private IEnumerator Test()
@@ -18,9 +25,4 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneName: "druga");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

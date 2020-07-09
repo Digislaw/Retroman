@@ -13,6 +13,7 @@ public class PlayerMovement : Singleton<PlayerMovement>
     [Header("Horizontal movement")]
     [SerializeField] private float speed = 5f; // predkosc ruchu
     private int direction = 1; // 1 - w prawo, -1 - w lewo
+    private bool freezed = false;
 
     [Header("Jumping")]
     [SerializeField] private float jumpForce = 20f; // sila skoku
@@ -43,7 +44,7 @@ public class PlayerMovement : Singleton<PlayerMovement>
 
     private void Update()
     {
-        if (pause.paused) return;
+        if (pause.paused || freezed) return;
 
         if (controlsLockCounter > 0f)
         {
@@ -140,5 +141,19 @@ public class PlayerMovement : Singleton<PlayerMovement>
     public void Bounce()
     {
         rb.velocity = new Vector2(0.5f * bounceForce * direction, bounceForce);
+    }
+
+    public void Freeze()
+    {
+        if (freezed)
+        {
+            freezed = false;
+        }
+        else
+        {
+            freezed = true;
+            rb.velocity = Vector2.zero;
+        }
+            
     }
 }
