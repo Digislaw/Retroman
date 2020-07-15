@@ -8,7 +8,14 @@ public class Avatar : MonoBehaviour
     [SerializeField] [Range(0.01f, 0.1f)]
     private float precision = 0.01f; // float.Epsilon rowniez dziala, ale az taka precyzja nie jest tu potrzebna
     [SerializeField]
+    private Transform waypointsParent; // obiekt przechowujacy punkty
     private MapWaypoint current;    // aktualny punkt
+
+    private void Awake()
+    {
+        // wczytaj ostatnia pozycje gracza
+        LoadLastPosition();
+    }
 
     private void Update()
     {
@@ -20,8 +27,9 @@ public class Avatar : MonoBehaviour
         }
 
         // teleportacja do poziomu
-        if(Input.GetButtonDown("Submit") && current.IsLevelPoint)
+        if(Input.GetButtonDown("Submit") && current.Unlocked)
         {
+            SaveCurrentPosition();
             SceneController.Instance.ChangeLevel(current.LevelName);
             return;
         }
@@ -40,5 +48,19 @@ public class Avatar : MonoBehaviour
     private void Move()
     {
         transform.position = Vector3.MoveTowards(transform.position, current.transform.position, Time.deltaTime * speed);
+    }
+
+    private void SaveCurrentPosition()
+    {
+        PlayerPrefs.SetString("Last_Waypoint", current.name);
+        PlayerPrefs.SetFloat("Avatar_X", transform.position.x);
+        PlayerPrefs.SetFloat("Avatar_Y", transform.position.y);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadLastPosition()
+    {
+        current = waypointsParent.Find(PlayerPrefs.GetString("Last_Waypoint")).GetComponent<MapWaypoint>();
+        transform.position = new Vector3(PlayerPrefs.GetFloat("Avatar_X"), PlayerPrefs.GetFloat("Avatar_Y"), 0f);
     }
 }

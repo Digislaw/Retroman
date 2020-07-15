@@ -10,7 +10,6 @@ public class SceneController : Singleton<SceneController>
     private void Start()
     {
         DontDestroyOnLoad(gameObject);
-        //StartCoroutine(Test());
     }
 
     public void ChangeLevel(string levelName)
@@ -18,11 +17,4 @@ public class SceneController : Singleton<SceneController>
         AudioController.Instance.PlayStrict(levelSelectedSound);
         SceneManager.LoadSceneAsync(levelName);
     }
-
-    private IEnumerator Test()
-    {
-        yield return new WaitForSeconds(5f);
-        SceneManager.LoadSceneAsync(sceneName: "druga");
-    }
-
 }
