@@ -9,6 +9,8 @@ public class FinishFlag : MonoBehaviour
     private AudioClip victorySound;
     [SerializeField]
     private string[] levelsToUnlock;    // nazwy poziomow do odblokowania
+    [SerializeField]
+    private LevelData levelData;
 
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -17,6 +19,8 @@ public class FinishFlag : MonoBehaviour
             PlayerMovement.Instance.Freeze();
 
             UnlockLevels();
+            UpdateRecords();
+            PlayerPrefs.Save();
             CompleteLevel();            
         }
     }
@@ -25,8 +29,13 @@ public class FinishFlag : MonoBehaviour
     {
         for(int i = 0; i<levelsToUnlock.Length; i++)
             PlayerPrefs.SetInt(levelsToUnlock[i] + "_Unlocked", 1);
+    }
 
-        PlayerPrefs.Save();
+    private void UpdateRecords()
+    {
+        int bestCoins = PlayerPrefs.GetInt(levelData.Name + "_Coins", 0);
+        if(levelData.Coins > bestCoins)
+            PlayerPrefs.SetInt(levelData.Name + "_Coins", levelData.Coins);
     }
 
     private void CompleteLevel()

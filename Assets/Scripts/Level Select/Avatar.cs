@@ -10,6 +10,9 @@ public class Avatar : MonoBehaviour
     [SerializeField]
     private Transform waypointsParent; // obiekt przechowujacy punkty
     private MapWaypoint current;    // aktualny punkt
+    [Header("GUI")]
+    [SerializeField]
+    private LevelStats levelStatsWindow;
 
     private void Awake()
     {
@@ -25,6 +28,11 @@ public class Avatar : MonoBehaviour
             Move(); // gracz jest wciaz zbyt daleko, kontynuuj ruch
             return;
         }
+
+        if (current.Unlocked && !levelStatsWindow.gameObject.activeSelf)
+            levelStatsWindow.ShowStats(current);
+        else if (!current.Unlocked && levelStatsWindow.gameObject.activeSelf)
+            levelStatsWindow.HideStats();
 
         // teleportacja do poziomu
         if(Input.GetButtonDown("Submit") && current.Unlocked)

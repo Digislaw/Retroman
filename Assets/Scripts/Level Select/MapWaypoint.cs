@@ -10,7 +10,10 @@ public class MapWaypoint : MonoBehaviour
     private bool unlocked;    // punkt reprezentuje poziom
 
     [SerializeField]
-    private string levelName;   // nazwa poziomu, jesli jest punktem poziomu
+    private string levelName;   // identyfikator poziomu, jesli jest punktem poziomu
+
+    [SerializeField]
+    private string label;   // nazwa poziomu ("fabularna"), widoczna dla gracza
 
     [SerializeField]
     private MapWaypoint up, left, right, down;  // sasiadujace punkty
@@ -24,6 +27,10 @@ public class MapWaypoint : MonoBehaviour
 
     public bool Unlocked { get { return unlocked; } }
     public string LevelName { get { return levelName; } }
+
+    public string Label { get { return label; } }
+
+    public int Coins { get; set; }
 
     private void Start()
     {
