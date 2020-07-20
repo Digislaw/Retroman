@@ -10,6 +10,9 @@ public class LevelStats : MonoBehaviour
     private Text coins;
 
     [SerializeField]
+    private Text diamonds;
+
+    [SerializeField]
     private Text time;
 
     public void ShowStats(MapWaypoint waypoint)
@@ -21,6 +24,9 @@ public class LevelStats : MonoBehaviour
 
         // Rekord monet
         coins.text = waypoint.Coins.ToString();
+
+        // Rekord diamentow
+        diamonds.text = waypoint.Diamonds;
 
         // Rekord czasu
         time.text = waypoint.Time;

@@ -16,8 +16,13 @@ public class LevelsController : MonoBehaviour
             else
                 levels[i].UnlockLevel();
 
+            // Monety
             levels[i].Coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
 
+            // Diamenty
+            levels[i].Diamonds = PlayerPrefs.GetInt(levels[i].LevelName + "_Diamonds", 0).ToString() + " / 3";
+
+            // Czas
             string timeKey = levels[i].LevelName + "_Time";
             if (PlayerPrefs.HasKey(timeKey))
             {

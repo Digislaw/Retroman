@@ -41,6 +41,12 @@ public class FinishFlag : MonoBehaviour
         if(levelData.Coins > bestCoins)
             PlayerPrefs.SetInt(coinsKey, levelData.Coins);
 
+        // Diamenty
+        string diamondsKey = levelData.Name + "_Diamonds";
+        int bestDiamonds = PlayerPrefs.GetInt(diamondsKey, 0);
+        if (levelData.Diamonds > bestDiamonds)
+            PlayerPrefs.SetInt(diamondsKey, levelData.Diamonds);
+
         // Czas
         string timeKey = levelData.Name + "_Time";
         if (PlayerPrefs.HasKey(timeKey))
