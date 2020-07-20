@@ -30,7 +30,7 @@ public class MapWaypoint : MonoBehaviour
 
     public string Label { get { return label; } }
 
-    public int Coins { get; set; }
+    public string Coins { get; set; }
     public string Diamonds { get; set; }
     public string Time { get; set; }
 

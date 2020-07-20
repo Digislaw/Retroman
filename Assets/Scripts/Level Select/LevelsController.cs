@@ -17,7 +17,9 @@ public class LevelsController : MonoBehaviour
                 levels[i].UnlockLevel();
 
             // Monety
-            levels[i].Coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
+            int coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
+            string zeros = new string('0', 2 - (coins / 100));
+            levels[i].Coins = zeros + coins.ToString();
 
             // Diamenty
             levels[i].Diamonds = PlayerPrefs.GetInt(levels[i].LevelName + "_Diamonds", 0).ToString() + " / 3";
