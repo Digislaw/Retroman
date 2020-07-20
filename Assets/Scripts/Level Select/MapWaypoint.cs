@@ -31,6 +31,7 @@ public class MapWaypoint : MonoBehaviour
     public string Label { get { return label; } }
 
     public int Coins { get; set; }
+    public string Time { get; set; }
 
     private void Start()
     {

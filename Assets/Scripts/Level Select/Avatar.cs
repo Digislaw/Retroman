@@ -20,6 +20,12 @@ public class Avatar : MonoBehaviour
         LoadLastPosition();
     }
 
+    private void Start()
+    {
+        if (current.Unlocked)
+            levelStatsWindow.ShowStats(current);
+    }
+
     private void Update()
     {
         // sprawdzenie dystansu
