@@ -18,8 +18,7 @@ public class LevelsController : MonoBehaviour
 
             // Monety
             int coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
-            string zeros = new string('0', 2 - (coins / 100));
-            levels[i].Coins = zeros + coins.ToString();
+            levels[i].Coins = coins.ToString().PadLeft(3, '0');
 
             // Diamenty
             levels[i].Diamonds = PlayerPrefs.GetInt(levels[i].LevelName + "_Diamonds", 0).ToString() + " / 3";
@@ -35,9 +34,7 @@ public class LevelsController : MonoBehaviour
             else
             {
                 levels[i].Time = "--:--";
-            }
-            
-
+            }            
         }
     }
 }
