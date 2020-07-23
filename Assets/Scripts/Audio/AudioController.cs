@@ -23,8 +23,6 @@ public class AudioController : Singleton<AudioController>
     protected override void Awake()
     {
         base.Awake();
-        DontDestroyOnLoad(gameObject);  // musi istniec przez cala gre, niezaleznie od sceny
-
         PlayMusic(musicClip);
     }
 
