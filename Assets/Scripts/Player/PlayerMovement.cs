@@ -154,6 +154,9 @@ public class PlayerMovement : Singleton<PlayerMovement>
             freezed = true;
             rb.velocity = Vector2.zero;
         }
-            
+
+        animator.SetFloat("Horizontal Speed", 0);
+        animator.SetFloat("Vertical Speed", 0);
+        animator.SetBool("On Ground", true);
     }
 }

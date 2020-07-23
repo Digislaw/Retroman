@@ -1,16 +1,28 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class FinishFlag : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField]
     private Layer playerLayer;
+
     [SerializeField]
     private AudioClip victorySound;
+
     [SerializeField]
     private string[] levelsToUnlock;    // nazwy poziomow do odblokowania
+
     [SerializeField]
     private LevelData levelData;
+
+    [Header("User Interface")]
+    [SerializeField]
+    private RectTransform victoryUI;
+
+    [SerializeField]
+    private FadeEffect fade;
+
     private float finalTime;
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -65,6 +77,16 @@ public class FinishFlag : MonoBehaviour
     {
         AudioController.Instance.PlayMusicWithDelay(AudioController.Instance.currentMusic, victorySound.length);
         AudioController.Instance.PlayMusic(victorySound);
+        StartCoroutine(VictoryScreen(victorySound.length));
+    }
+
+    private IEnumerator VictoryScreen(float time)
+    {
+        float wait = time - fade.Duration;  // czas po jakim ekran bedzie sie zaciemnial
+        victoryUI.gameObject.SetActive(true);
+        yield return new WaitForSeconds(wait);
+        fade.FadeIn();
+        yield return new WaitForSeconds(time - wait);
         SceneController.Instance.ChangeLevel("Level Selection");
     }
 }
