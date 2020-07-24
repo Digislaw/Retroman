@@ -1,53 +1,54 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MapWaypoint : MonoBehaviour
 {
-    [Header("Waypoint Settings")]
-
     [SerializeField]
-    private bool unlocked;    // punkt reprezentuje poziom
+    private MapWaypoint up, left, right, down;  // sasiadujace punkty
 
+    [Header("Level Settings")]
     [SerializeField]
     private string levelName;   // identyfikator poziomu, jesli jest punktem poziomu
 
     [SerializeField]
-    private string label;   // nazwa poziomu ("fabularna"), widoczna dla gracza
+    private string label;       // nazwa poziomu ("fabularna"), widoczna dla gracza
 
-    [SerializeField]
-    private MapWaypoint up, left, right, down;  // sasiadujace punkty
-
-    private SpriteRenderer sprite;
+    [SerializeField] [Range(1, 999)]
+    private int requiredCoins = 1;  // liczba monet potrzebna do progressu
 
     public MapWaypoint Up { get { return up; } }
     public MapWaypoint Left { get { return left; } }
     public MapWaypoint Right { get { return right; } }
     public MapWaypoint Down { get { return down; } }
 
-    public bool Unlocked { get { return unlocked; } }
+    public bool Unlocked { get; private set; }
     public string LevelName { get { return levelName; } }
 
     public string Label { get { return label; } }
-
-    public string Coins { get; set; }
-    public string Diamonds { get; set; }
-    public string Time { get; set; }
-
-    private void Start()
-    {
-        sprite = GetComponent<SpriteRenderer>();
-    }
+    public bool Completed { get; private set; }
+    public int Coins { get; set; }
+    public int RequiredCoins { get { return requiredCoins; } }
+    public int Diamonds { get; set; }
+    public float Time { get; set; }
 
     public void LockLevel()
     {
-        unlocked = false;
+        Unlocked = false;
         GetComponent<SpriteRenderer>().color = new Color(0.49f, 0.49f, 0.49f);
     }
 
     public void UnlockLevel()
     {
-        unlocked = true;
+        Unlocked = true;
         GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
+    }
+
+    public void MarkAsComplete()
+    {
+        Completed = true;
+    }
+
+    public void MarkAsIncomplete()
+    {
+        Completed = false;
     }
 }

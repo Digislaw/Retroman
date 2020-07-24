@@ -47,6 +47,9 @@ public class FinishFlag : MonoBehaviour
 
     private void UpdateRecords()
     {
+        // Ukonczono poziom
+        PlayerPrefs.SetInt(levelData.Name + "_Completed", 1);
+
         // Monety
         string coinsKey = levelData.Name + "_Coins";
         int bestCoins = PlayerPrefs.GetInt(coinsKey, 0);

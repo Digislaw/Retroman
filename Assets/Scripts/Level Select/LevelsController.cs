@@ -1,10 +1,11 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LevelsController : MonoBehaviour
 {
     [SerializeField]
     private MapWaypoint[] levels; // punkty, ktore reprezentuja poziomy
+
+    public MapWaypoint[] Levels { get { return levels; } }
 
     private void Awake()
     {
@@ -16,25 +17,19 @@ public class LevelsController : MonoBehaviour
             else
                 levels[i].UnlockLevel();
 
+            if (PlayerPrefs.GetInt(levels[i].LevelName + "_Completed", 0) == 1)
+                levels[i].MarkAsComplete();
+            else
+                levels[i].MarkAsIncomplete();
+
             // Monety
-            int coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
-            levels[i].Coins = coins.ToString().PadLeft(3, '0');
+            levels[i].Coins = PlayerPrefs.GetInt(levels[i].LevelName + "_Coins", 0);
 
             // Diamenty
-            levels[i].Diamonds = PlayerPrefs.GetInt(levels[i].LevelName + "_Diamonds", 0).ToString() + " / 3";
+            levels[i].Diamonds = PlayerPrefs.GetInt(levels[i].LevelName + "_Diamonds", 0);
 
             // Czas
-            string timeKey = levels[i].LevelName + "_Time";
-            if (PlayerPrefs.HasKey(timeKey))
-            {
-                float time = PlayerPrefs.GetFloat(timeKey);
-                TimeSpan span = TimeSpan.FromSeconds(time);
-                levels[i].Time = string.Format("{0:d2}:{1:d2}", span.Minutes, span.Seconds);
-            }
-            else
-            {
-                levels[i].Time = "--:--";
-            }            
+            levels[i].Time = PlayerPrefs.GetFloat(levels[i].LevelName + "_Time", 0f);       
         }
     }
 }
