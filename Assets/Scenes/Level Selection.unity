@@ -2020,16 +2020,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  m_AnimatedTiles:
-  - first: {x: -4, y: 2, z: 0}
-    second:
-      m_AnimatedSprites:
-      - {fileID: -3995278086572330390, guid: 8bbf8deade1cbc14faafeadd6a65af9a, type: 3}
-      - {fileID: 92694720630458476, guid: 8bbf8deade1cbc14faafeadd6a65af9a, type: 3}
-      - {fileID: 6614595379196643887, guid: 8bbf8deade1cbc14faafeadd6a65af9a, type: 3}
-      m_AnimationSpeed: 6
-      m_AnimationTimeOffset: 0
-      m_IsLooping: 1
+  m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 39
     m_Data: {fileID: 11400000, guid: 3b1caeba28b8707498071ea599a4c30e, type: 2}
