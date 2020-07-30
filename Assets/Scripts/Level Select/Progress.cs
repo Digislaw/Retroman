@@ -45,7 +45,7 @@ public class Progress : MonoBehaviour
             totalPoints += level.Diamonds;
 
             // Speedrun
-            if (level.Time < 60f)
+            if (level.Completed && level.Time < 60f)
                 totalPoints += 3;
         }
     }
