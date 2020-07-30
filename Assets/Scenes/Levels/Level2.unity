@@ -23395,6 +23395,11 @@ PrefabInstance:
       propertyPath: fade
       value: 
       objectReference: {fileID: 2052884531}
+    - target: {fileID: 5941457872299634546, guid: 53e81d5ca194bfa43adf5fd184212fea,
+        type: 3}
+      propertyPath: levelsToUnlock.Array.data[0]
+      value: Level3
+      objectReference: {fileID: 0}
     - target: {fileID: 5941457872299634550, guid: 53e81d5ca194bfa43adf5fd184212fea,
         type: 3}
       propertyPath: m_Name
