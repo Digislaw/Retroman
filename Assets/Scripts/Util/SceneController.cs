@@ -14,6 +14,7 @@ public class SceneController : Singleton<SceneController>
 
     public void ChangeLevel(string levelName)
     {
+        Time.timeScale = 1f;
         AudioController.Instance.PlayStrict(levelSelectedSound);
         SceneManager.LoadSceneAsync(levelName);
     }
