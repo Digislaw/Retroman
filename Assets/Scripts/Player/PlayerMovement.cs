@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
 [DefaultExecutionOrder(-100)]
 public class PlayerMovement : Singleton<PlayerMovement>
@@ -57,7 +58,7 @@ public class PlayerMovement : Singleton<PlayerMovement>
         GroundCheck();
 
         // ruch po osi X
-        rb.velocity = new Vector2(speed * Input.GetAxisRaw("Horizontal"), rb.velocity.y);
+        rb.velocity = new Vector2(speed * Controls.Horizontal, rb.velocity.y);
 
         // kontrola prawidlowego ukierunkowania postaci
         Flip();
