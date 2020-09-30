@@ -64,7 +64,7 @@ public class PlayerMovement : Singleton<PlayerMovement>
         Flip();
 
         // skok
-        if (Input.GetButtonDown("Jump"))
+        if (Controls.Jump)
             Jump();
 
         // wyznacz parametry dla animacji

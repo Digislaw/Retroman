@@ -1,9 +1,32 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class VirtualJoystick : MonoBehaviour
 {
-    private Vector2 pointA;
-    private Vector2 pointB;
+    [SerializeField]
+    private Image threshold;
+    [SerializeField]
+    private Image stick;
+
+    private Vector2 centerPoint;
+    private bool active = false;
+
+    private float Normalize(float value)
+    {
+        if (value > 0)
+            return 1f;
+        else if (value < 0)
+            return -1f;
+        else
+            return value;
+    }
+
+    private void setState(bool isActive)
+    {
+        active = isActive;
+        threshold.enabled = isActive;
+        stick.enabled = isActive;
+    }
 
     private void Awake()
     {
@@ -12,24 +35,55 @@ public class VirtualJoystick : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-            pointA = Input.mousePosition;
+        if (Input.touchCount == 0)
+            return;
 
-        Debug.Log(pointA);
+        Touch t1 = Input.GetTouch(0);
 
-        if (Input.GetMouseButton(0))
+        if (t1.position.x < Screen.width / 2)
         {
-            pointB = Input.mousePosition;
-            CalculateInput();
+            switch (t1.phase)
+            {
+                case TouchPhase.Began:
+                    threshold.transform.position = t1.position;
+                    stick.transform.position = t1.position;
+                    centerPoint = t1.position;
+
+                    setState(true);
+                    break;
+
+                case TouchPhase.Stationary:
+                case TouchPhase.Moved:
+                    if (active)
+                    {
+                        Vector2 diff = t1.position - centerPoint;
+                        Vector2 direction = Vector2.ClampMagnitude(diff, 200f);
+                        stick.transform.position = centerPoint + direction;
+                        CalculateInput(direction);
+                    }
+                    break;
+
+                case TouchPhase.Ended:
+                    setState(false);
+                    break;
+            }
+        } 
+        else if(t1.phase == TouchPhase.Began)
+        {
+            Controls.Jump = true;
         }
+
+        if (Input.touchCount < 2)
+            return;
+
+        Touch t2 = Input.GetTouch(1);
+        if(t2.position.x > Screen.width / 2 && t2.phase == TouchPhase.Began)
+            Controls.Jump = true;
     }
 
-    private void CalculateInput()
+    private void CalculateInput(Vector2 direction)
     {
-        Vector2 diff = pointB - pointA;
-        Vector2 direction = Vector2.ClampMagnitude(diff, 1f);
-
-        Controls.Horizontal = direction.x;
-        Controls.Vertical = direction.y;
+        Controls.Horizontal = Normalize(direction.x);
+        Controls.Vertical = Normalize(direction.y);
     }
 }

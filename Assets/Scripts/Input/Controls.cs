@@ -37,4 +37,20 @@ public static class Controls
             vertical = Mathf.Clamp(value, -1f, 1f);
         }
     }
+
+    public static bool jump;
+    public static bool Jump
+    {
+        get
+        {
+            bool val = jump ? jump : Input.GetButtonDown("Jump");
+            jump = false;
+            return val;
+        }
+
+        set
+        {
+            jump = value;
+        }
+    }
 }
