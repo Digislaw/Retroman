@@ -1,5 +1,13 @@
-# Retroman
-Platformówka retro 2D
+# **Retroman** 🕹️
 
-# Znane problemy
-Wartości z klasy Controls są ulotne. Tzn. pobranie wartości, np. float x = Controls.Horizontal powoduje jego natychmiastowe wyczyszczenie - kolejne wywołanie w ramach tej samej klatki (Update()) powoduje błędny odczyt.
+Welcome to Retroman, a retro-style arcade game developed using Unity Engine. This project brings old-school gaming fun with modern twists. 
+
+![](https://github.com/Digislaw/Retroman/blob/master/Screenshots/1.jpg)
+
+## Features
+- Retro graphics and sound effects
+- Smooth gameplay optimized for both PC and Android platforms
+- Multiple levels filled with challenges and rewards
+- Intuitive control scheme: WASD (PC) and touch controls (Android)
+##
+![](https://github.com/Digislaw/Retroman/blob/master/Screenshots/2.jpg)
